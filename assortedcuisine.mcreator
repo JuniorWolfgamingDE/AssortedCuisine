@@ -1,0 +1,105 @@
+{
+  "mod_elements": [
+    {
+      "name": "AssortedCuisine",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "assorted_cuisine",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "DragonFruit",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_fruit",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/assortedcuisine/models/item/dragon_fruit.json",
+          "src/main/java/net/juniorwmg/assortedcuisine/item/DragonFruitItem.java"
+        ]
+      },
+      "path": "~/Dragon Fruit"
+    },
+    {
+      "name": "DragonFruitDrop",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_fruit_drop",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/procedures/DragonFruitDropProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dragon Fruit"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item_group.assortedcuisine.assorted_cuisine": "Assorted Cuisine",
+      "item.assortedcuisine.dragon_fruit": "Dragon Fruit"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Soda",
+        "children": []
+      },
+      {
+        "name": "Dragon Fruit",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "assortedcuisine",
+    "modName": "Assorted Cuisine",
+    "version": "1.0.0",
+    "author": "Besitzer, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.4",
+    "modElementsPackage": "net.juniorwmg.assortedcuisine",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300224119
+}
