@@ -30,6 +30,8 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.juniorwmg.assortedcuisine.init.AssortedcuisineModItems;
+import net.juniorwmg.assortedcuisine.init.AssortedcuisineModBlocks;
+import net.juniorwmg.assortedcuisine.init.AssortedcuisineModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -49,7 +51,10 @@ public class AssortedcuisineMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
+		AssortedcuisineModBlocks.REGISTRY.register(bus);
 		AssortedcuisineModItems.REGISTRY.register(bus);
+
+		AssortedcuisineModBlockEntities.REGISTRY.register(bus);
 
 	}
 

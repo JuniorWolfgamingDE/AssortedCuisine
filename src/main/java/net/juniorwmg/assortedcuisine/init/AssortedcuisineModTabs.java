@@ -39,6 +39,8 @@ public class AssortedcuisineModTabs {
 					tabData.accept(AssortedcuisineModItems.BANDAGE.get());
 					tabData.accept(AssortedcuisineModItems.HEALTH_PACK.get());
 					tabData.accept(AssortedcuisineModItems.SUPER_HEALTH_PACK.get());
+					tabData.accept(AssortedcuisineModItems.BUTTER.get());
+					tabData.accept(AssortedcuisineModBlocks.BUTTER_CHURN.get().asItem());
 				})
 
 		);

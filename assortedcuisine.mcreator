@@ -886,34 +886,152 @@
         ]
       },
       "path": "~/Health"
+    },
+    {
+      "name": "Butter",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "butter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/item/ButterItem.java",
+          "src/main/resources/assets/assortedcuisine/models/item/butter.json"
+        ]
+      },
+      "path": "~/Dairy"
+    },
+    {
+      "name": "ButterChurnRightClicked",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "butter_churn_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/procedures/ButterChurnRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dairy"
+    },
+    {
+      "name": "ButterChurnUpdateTick",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "butter_churn_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/procedures/ButterChurnUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dairy"
+    },
+    {
+      "name": "ButterChurn",
+      "type": "block",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "butter_churn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/block/ButterChurnBlock.java",
+          "src/main/resources/assets/assortedcuisine/blockstates/butter_churn.json",
+          "src/main/java/net/juniorwmg/assortedcuisine/block/entity/ButterChurnBlockEntity.java",
+          "src/main/resources/assets/assortedcuisine/models/block/butter_churn.json",
+          "src/main/resources/assets/assortedcuisine/models/item/butter_churn.json"
+        ]
+      },
+      "path": "~/Dairy"
+    },
+    {
+      "name": "ButterDebugTickMessage",
+      "type": "gamerule",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "butter_debug_tick_message",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      },
+      "path": "~/Dairy"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "gamerule.butterDebugTickMessage.description": "Sends a chat message when an active butter churn ticks.",
       "item.assortedcuisine.sparkling_water_bottle": "Bottle of Sparkling Water",
       "item.assortedcuisine.super_sugar": "Super Sugar",
       "item_group.assortedcuisine.assorted_cuisine": "Assorted Cuisine",
       "item.assortedcuisine.diamond_soda": "Diamond Soda",
       "item.assortedcuisine.root_soda": "Root Beer",
       "item.assortedcuisine.slurm_soda": "Slurm",
+      "gamerule.butterDebugTickMessage": "[Debug] Notify on butter churn tick",
       "item.assortedcuisine.cocoa_soda": "Cocoa Drink",
+      "item.assortedcuisine.golden_apple_soda": "Golden Apple Soda",
+      "item.assortedcuisine.bandage": "Bandage",
+      "item.assortedcuisine.apple_soda": "Apple Soda",
+      "item.assortedcuisine.carbon_dioxide_cylinder": "Empty Co² Cylinder",
+      "item.assortedcuisine.filled_carbon_dioxide_cylinder": "Filled Co² Cylinder",
       "item.assortedcuisine.sugar_sweets": "Sugar Sweets",
       "item.assortedcuisine.health_pack": "Health Pack",
-      "item.assortedcuisine.golden_apple_soda": "Golden Apple Soda",
       "item.assortedcuisine.spiked_pumpkin_soda": "Spiked Pumpkin Soda",
       "item.assortedcuisine.super_health_pack": "Super Health Pack",
+      "item.assortedcuisine.butter": "Butter",
       "item.assortedcuisine.cream_pumpkin_soda": "Cream Pumpkin Soda",
       "item.assortedcuisine.super_sugar_sweets": "Super Sugar Sweets",
       "item.assortedcuisine.pumpkin_soda": "Pumpkin Soda",
-      "item.assortedcuisine.bandage": "Bandage",
+      "block.assortedcuisine.butter_churn": "Butter Churn",
       "item.assortedcuisine.shroom_soda": "Mushroom Soda",
       "item.assortedcuisine.dragon_fruit": "Dragon Fruit",
-      "item.assortedcuisine.apple_soda": "Apple Soda",
-      "death.attack.cuisine.spikedpumpkin": "A player drank to much spiked soda",
-      "item.assortedcuisine.carbon_dioxide_cylinder": "Empty Co² Cylinder",
-      "item.assortedcuisine.filled_carbon_dioxide_cylinder": "Filled Co² Cylinder"
+      "death.attack.cuisine.spikedpumpkin": "A player drank to much spiked soda"
     }
   },
   "foldersRoot": {
@@ -933,6 +1051,10 @@
       },
       {
         "name": "Health",
+        "children": []
+      },
+      {
+        "name": "Dairy",
         "children": []
       }
     ]

@@ -8,7 +8,9 @@ import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.BlockItem;
 
 import net.juniorwmg.assortedcuisine.item.SuperSugarSweetsItem;
 import net.juniorwmg.assortedcuisine.item.SuperSugarItem;
@@ -28,6 +30,7 @@ import net.juniorwmg.assortedcuisine.item.DiamondSodaItem;
 import net.juniorwmg.assortedcuisine.item.CreamPumpkinSodaItem;
 import net.juniorwmg.assortedcuisine.item.CocoaSodaItem;
 import net.juniorwmg.assortedcuisine.item.CarbonDioxideCylinderItem;
+import net.juniorwmg.assortedcuisine.item.ButterItem;
 import net.juniorwmg.assortedcuisine.item.BandageItem;
 import net.juniorwmg.assortedcuisine.item.AppleSodaItem;
 import net.juniorwmg.assortedcuisine.AssortedcuisineMod;
@@ -54,4 +57,10 @@ public class AssortedcuisineModItems {
 	public static final RegistryObject<Item> BANDAGE = REGISTRY.register("bandage", () -> new BandageItem());
 	public static final RegistryObject<Item> HEALTH_PACK = REGISTRY.register("health_pack", () -> new HealthPackItem());
 	public static final RegistryObject<Item> SUPER_HEALTH_PACK = REGISTRY.register("super_health_pack", () -> new SuperHealthPackItem());
+	public static final RegistryObject<Item> BUTTER = REGISTRY.register("butter", () -> new ButterItem());
+	public static final RegistryObject<Item> BUTTER_CHURN = block(AssortedcuisineModBlocks.BUTTER_CHURN);
+
+	private static RegistryObject<Item> block(RegistryObject<Block> block) {
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
+	}
 }
