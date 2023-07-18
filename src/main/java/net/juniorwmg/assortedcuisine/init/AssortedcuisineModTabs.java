@@ -33,6 +33,9 @@ public class AssortedcuisineModTabs {
 					tabData.accept(AssortedcuisineModItems.CARBON_DIOXIDE_CYLINDER.get());
 					tabData.accept(AssortedcuisineModItems.FILLED_CARBON_DIOXIDE_CYLINDER.get());
 					tabData.accept(AssortedcuisineModItems.SPARKLING_WATER_BOTTLE.get());
+					tabData.accept(AssortedcuisineModItems.SUPER_SUGAR.get());
+					tabData.accept(AssortedcuisineModItems.SUGAR_SWEETS.get());
+					tabData.accept(AssortedcuisineModItems.SUPER_SUGAR_SWEETS.get());
 				})
 
 		);

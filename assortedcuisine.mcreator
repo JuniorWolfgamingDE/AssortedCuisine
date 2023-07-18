@@ -672,6 +672,93 @@
         ]
       },
       "path": "~/Soda"
+    },
+    {
+      "name": "SuperSugar",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_sugar",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/assortedcuisine/models/item/super_sugar.json",
+          "src/main/java/net/juniorwmg/assortedcuisine/item/SuperSugarItem.java"
+        ]
+      },
+      "path": "~/Sugar"
+    },
+    {
+      "name": "SugarSweets",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sugar_sweets",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/assortedcuisine/models/item/sugar_sweets.json",
+          "src/main/java/net/juniorwmg/assortedcuisine/item/SugarSweetsItem.java"
+        ]
+      },
+      "path": "~/Sugar"
+    },
+    {
+      "name": "SuperSugarSweets",
+      "type": "item",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_sugar_sweets",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/item/SuperSugarSweetsItem.java",
+          "src/main/resources/assets/assortedcuisine/models/item/super_sugar_sweets.json"
+        ]
+      },
+      "path": "~/Sugar"
+    },
+    {
+      "name": "SuperSugarRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_sugar_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/super_sugar_recipe.json"
+        ]
+      },
+      "path": "~/Sugar"
+    },
+    {
+      "name": "SugarSweetsRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sugar_sweets_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/sugar_sweets_recipe.json"
+        ]
+      },
+      "path": "~/Sugar"
+    },
+    {
+      "name": "SuperSugarSweetsRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_sugar_sweets_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/super_sugar_sweets_recipe.json"
+        ]
+      },
+      "path": "~/Sugar"
     }
   ],
   "variable_elements": [],
@@ -679,14 +766,17 @@
   "language_map": {
     "en_us": {
       "item.assortedcuisine.sparkling_water_bottle": "Bottle of Sparkling Water",
+      "item.assortedcuisine.super_sugar": "Super Sugar",
       "item_group.assortedcuisine.assorted_cuisine": "Assorted Cuisine",
       "item.assortedcuisine.diamond_soda": "Diamond Soda",
       "item.assortedcuisine.root_soda": "Root Beer",
       "item.assortedcuisine.slurm_soda": "Slurm",
       "item.assortedcuisine.cocoa_soda": "Cocoa Drink",
+      "item.assortedcuisine.sugar_sweets": "Sugar Sweets",
       "item.assortedcuisine.golden_apple_soda": "Golden Apple Soda",
       "item.assortedcuisine.spiked_pumpkin_soda": "Spiked Pumpkin Soda",
       "item.assortedcuisine.cream_pumpkin_soda": "Cream Pumpkin Soda",
+      "item.assortedcuisine.super_sugar_sweets": "Super Sugar Sweets",
       "item.assortedcuisine.pumpkin_soda": "Pumpkin Soda",
       "item.assortedcuisine.shroom_soda": "Mushroom Soda",
       "item.assortedcuisine.dragon_fruit": "Dragon Fruit",
@@ -705,6 +795,10 @@
       },
       {
         "name": "Dragon Fruit",
+        "children": []
+      },
+      {
+        "name": "Sugar",
         "children": []
       }
     ]

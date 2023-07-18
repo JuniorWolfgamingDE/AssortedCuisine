@@ -10,6 +10,9 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.item.Item;
 
+import net.juniorwmg.assortedcuisine.item.SuperSugarSweetsItem;
+import net.juniorwmg.assortedcuisine.item.SuperSugarItem;
+import net.juniorwmg.assortedcuisine.item.SugarSweetsItem;
 import net.juniorwmg.assortedcuisine.item.SpikedPumpkinSodaItem;
 import net.juniorwmg.assortedcuisine.item.SparklingWaterBottleItem;
 import net.juniorwmg.assortedcuisine.item.SlurmSodaItem;
@@ -42,4 +45,7 @@ public class AssortedcuisineModItems {
 	public static final RegistryObject<Item> CARBON_DIOXIDE_CYLINDER = REGISTRY.register("carbon_dioxide_cylinder", () -> new CarbonDioxideCylinderItem());
 	public static final RegistryObject<Item> FILLED_CARBON_DIOXIDE_CYLINDER = REGISTRY.register("filled_carbon_dioxide_cylinder", () -> new FilledCarbonDioxideCylinderItem());
 	public static final RegistryObject<Item> SPARKLING_WATER_BOTTLE = REGISTRY.register("sparkling_water_bottle", () -> new SparklingWaterBottleItem());
+	public static final RegistryObject<Item> SUPER_SUGAR = REGISTRY.register("super_sugar", () -> new SuperSugarItem());
+	public static final RegistryObject<Item> SUGAR_SWEETS = REGISTRY.register("sugar_sweets", () -> new SugarSweetsItem());
+	public static final RegistryObject<Item> SUPER_SUGAR_SWEETS = REGISTRY.register("super_sugar_sweets", () -> new SuperSugarSweetsItem());
 }
