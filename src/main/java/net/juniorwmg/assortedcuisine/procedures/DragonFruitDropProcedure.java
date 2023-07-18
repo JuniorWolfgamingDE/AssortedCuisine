@@ -33,7 +33,7 @@ public class DragonFruitDropProcedure {
 
 	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z, BlockState blockstate) {
 		if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == Blocks.CACTUS) {
-			if ((blockstate.getBlock().getStateDefinition().getProperty("age") instanceof IntegerProperty _getip3 ? blockstate.getValue(_getip3) : -1) >= 5) {
+			if ((blockstate.getBlock().getStateDefinition().getProperty("age") instanceof IntegerProperty _getip3 ? blockstate.getValue(_getip3) : -1) >= 3) {
 				if (Mth.nextInt(RandomSource.create(), 1, 3) == 1) {
 					for (int index0 = 0; index0 < Mth.nextInt(RandomSource.create(), 1, 2); index0++) {
 						if (world instanceof ServerLevel _level) {
