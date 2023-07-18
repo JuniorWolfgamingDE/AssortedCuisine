@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "dragonfruit16x",
+    "texture": "dragonfruit",
     "customModelName": "Normal",
     "name": "Dragon Fruit",
     "rarity": "COMMON",
