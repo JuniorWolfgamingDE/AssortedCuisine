@@ -759,6 +759,133 @@
         ]
       },
       "path": "~/Sugar"
+    },
+    {
+      "name": "Bandage",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bandage",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/assortedcuisine/models/item/bandage.json",
+          "src/main/java/net/juniorwmg/assortedcuisine/item/BandageItem.java"
+        ]
+      },
+      "path": "~/Health"
+    },
+    {
+      "name": "HealthPackStoppedUsing",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "health_pack_stopped_using",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/procedures/HealthPackStoppedUsingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Health"
+    },
+    {
+      "name": "HealthPack",
+      "type": "item",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "health_pack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/item/HealthPackItem.java",
+          "src/main/resources/assets/assortedcuisine/models/item/health_pack.json"
+        ]
+      },
+      "path": "~/Health"
+    },
+    {
+      "name": "SuperHealthPack",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_health_pack",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/assortedcuisine/models/item/super_health_pack.json",
+          "src/main/java/net/juniorwmg/assortedcuisine/item/SuperHealthPackItem.java"
+        ]
+      },
+      "path": "~/Health"
+    },
+    {
+      "name": "SuperHealthPackStoppedUsing",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_health_pack_stopped_using",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/procedures/SuperHealthPackStoppedUsingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Health"
+    },
+    {
+      "name": "BandageRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bandage_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/bandage_recipe.json"
+        ]
+      },
+      "path": "~/Health"
+    },
+    {
+      "name": "HealthPackRecipe",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "health_pack_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/health_pack_recipe.json"
+        ]
+      },
+      "path": "~/Health"
+    },
+    {
+      "name": "SuperHealthPackRecipe",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "super_health_pack_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/super_health_pack_recipe.json"
+        ]
+      },
+      "path": "~/Health"
     }
   ],
   "variable_elements": [],
@@ -773,11 +900,14 @@
       "item.assortedcuisine.slurm_soda": "Slurm",
       "item.assortedcuisine.cocoa_soda": "Cocoa Drink",
       "item.assortedcuisine.sugar_sweets": "Sugar Sweets",
+      "item.assortedcuisine.health_pack": "Health Pack",
       "item.assortedcuisine.golden_apple_soda": "Golden Apple Soda",
       "item.assortedcuisine.spiked_pumpkin_soda": "Spiked Pumpkin Soda",
+      "item.assortedcuisine.super_health_pack": "Super Health Pack",
       "item.assortedcuisine.cream_pumpkin_soda": "Cream Pumpkin Soda",
       "item.assortedcuisine.super_sugar_sweets": "Super Sugar Sweets",
       "item.assortedcuisine.pumpkin_soda": "Pumpkin Soda",
+      "item.assortedcuisine.bandage": "Bandage",
       "item.assortedcuisine.shroom_soda": "Mushroom Soda",
       "item.assortedcuisine.dragon_fruit": "Dragon Fruit",
       "item.assortedcuisine.apple_soda": "Apple Soda",
@@ -799,6 +929,10 @@
       },
       {
         "name": "Sugar",
+        "children": []
+      },
+      {
+        "name": "Health",
         "children": []
       }
     ]

@@ -12,6 +12,7 @@ import net.minecraft.world.item.Item;
 
 import net.juniorwmg.assortedcuisine.item.SuperSugarSweetsItem;
 import net.juniorwmg.assortedcuisine.item.SuperSugarItem;
+import net.juniorwmg.assortedcuisine.item.SuperHealthPackItem;
 import net.juniorwmg.assortedcuisine.item.SugarSweetsItem;
 import net.juniorwmg.assortedcuisine.item.SpikedPumpkinSodaItem;
 import net.juniorwmg.assortedcuisine.item.SparklingWaterBottleItem;
@@ -19,6 +20,7 @@ import net.juniorwmg.assortedcuisine.item.SlurmSodaItem;
 import net.juniorwmg.assortedcuisine.item.ShroomSodaItem;
 import net.juniorwmg.assortedcuisine.item.RootSodaItem;
 import net.juniorwmg.assortedcuisine.item.PumpkinSodaItem;
+import net.juniorwmg.assortedcuisine.item.HealthPackItem;
 import net.juniorwmg.assortedcuisine.item.GoldenAppleSodaItem;
 import net.juniorwmg.assortedcuisine.item.FilledCarbonDioxideCylinderItem;
 import net.juniorwmg.assortedcuisine.item.DragonFruitItem;
@@ -26,6 +28,7 @@ import net.juniorwmg.assortedcuisine.item.DiamondSodaItem;
 import net.juniorwmg.assortedcuisine.item.CreamPumpkinSodaItem;
 import net.juniorwmg.assortedcuisine.item.CocoaSodaItem;
 import net.juniorwmg.assortedcuisine.item.CarbonDioxideCylinderItem;
+import net.juniorwmg.assortedcuisine.item.BandageItem;
 import net.juniorwmg.assortedcuisine.item.AppleSodaItem;
 import net.juniorwmg.assortedcuisine.AssortedcuisineMod;
 
@@ -48,4 +51,7 @@ public class AssortedcuisineModItems {
 	public static final RegistryObject<Item> SUPER_SUGAR = REGISTRY.register("super_sugar", () -> new SuperSugarItem());
 	public static final RegistryObject<Item> SUGAR_SWEETS = REGISTRY.register("sugar_sweets", () -> new SugarSweetsItem());
 	public static final RegistryObject<Item> SUPER_SUGAR_SWEETS = REGISTRY.register("super_sugar_sweets", () -> new SuperSugarSweetsItem());
+	public static final RegistryObject<Item> BANDAGE = REGISTRY.register("bandage", () -> new BandageItem());
+	public static final RegistryObject<Item> HEALTH_PACK = REGISTRY.register("health_pack", () -> new HealthPackItem());
+	public static final RegistryObject<Item> SUPER_HEALTH_PACK = REGISTRY.register("super_health_pack", () -> new SuperHealthPackItem());
 }

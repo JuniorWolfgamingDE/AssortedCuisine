@@ -36,6 +36,9 @@ public class AssortedcuisineModTabs {
 					tabData.accept(AssortedcuisineModItems.SUPER_SUGAR.get());
 					tabData.accept(AssortedcuisineModItems.SUGAR_SWEETS.get());
 					tabData.accept(AssortedcuisineModItems.SUPER_SUGAR_SWEETS.get());
+					tabData.accept(AssortedcuisineModItems.BANDAGE.get());
+					tabData.accept(AssortedcuisineModItems.HEALTH_PACK.get());
+					tabData.accept(AssortedcuisineModItems.SUPER_HEALTH_PACK.get());
 				})
 
 		);

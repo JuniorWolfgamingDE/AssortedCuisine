@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "tag": "minecraft:wool"
+    },
+    "3": {
+      "tag": "minecraft:wool"
+    },
+    "4": {
+      "item": "minecraft:sugar"
+    },
+    "5": {
+      "tag": "minecraft:wool"
+    },
+    "7": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "result": {
+    "item": "assortedcuisine:health_pack",
+    "count": 1
+  }
+}

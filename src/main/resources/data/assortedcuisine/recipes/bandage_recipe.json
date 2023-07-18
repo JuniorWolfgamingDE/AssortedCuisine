@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:paper"
+    },
+    "1": {
+      "tag": "minecraft:wool"
+    },
+    "2": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "item": "assortedcuisine:bandage",
+    "count": 2
+  }
+}
