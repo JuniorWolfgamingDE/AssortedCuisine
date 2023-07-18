@@ -10,7 +10,7 @@
     "creativeTab": {
       "value": "CUSTOM:AssortedCuisine"
     },
-    "stackSize": 64,
+    "stackSize": 16,
     "enchantability": 0,
     "useDuration": 32,
     "toolType": 1.0,
@@ -29,6 +29,9 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
+    "onFinishUsingItem": {
+      "name": "SparklingWaterBottleFinishes"
+    },
     "isFood": true,
     "nutritionalValue": 0,
     "saturation": 0.3,
@@ -36,7 +39,7 @@
       "value": "Items.GLASS_BOTTLE"
     },
     "isMeat": false,
-    "isAlwaysEdible": false,
-    "animation": "eat"
+    "isAlwaysEdible": true,
+    "animation": "drink"
   }
 }

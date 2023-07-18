@@ -638,6 +638,40 @@
         ]
       },
       "path": "~/Soda"
+    },
+    {
+      "name": "SparklingWaterBottleFinishes",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sparkling_water_bottle_finishes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/procedures/SparklingWaterBottleFinishesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Soda"
+    },
+    {
+      "name": "SparklingWaterBottleRecipe2",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sparkling_water_bottle_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/sparkling_water_bottle_recipe_2.json"
+        ]
+      },
+      "path": "~/Soda"
     }
   ],
   "variable_elements": [],
