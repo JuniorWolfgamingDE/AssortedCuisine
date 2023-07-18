@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "assortedcuisine:carbon_dioxide_cylinder"
+    },
+    {
+      "item": "minecraft:flint"
+    },
+    {
+      "item": "minecraft:flint"
+    }
+  ],
+  "result": {
+    "item": "assortedcuisine:filled_carbon_dioxide_cylinder",
+    "count": 1
+  }
+}

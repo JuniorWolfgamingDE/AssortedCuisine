@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:wheat_seeds"
+    },
+    {
+      "item": "assortedcuisine:sparkling_water_bottle"
+    },
+    {
+      "item": "minecraft:wheat_seeds"
+    }
+  ],
+  "result": {
+    "item": "assortedcuisine:root_soda",
+    "count": 1
+  }
+}

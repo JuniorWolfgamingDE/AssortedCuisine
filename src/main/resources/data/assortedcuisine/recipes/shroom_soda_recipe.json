@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:red_mushroom"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "assortedcuisine:sparkling_water_bottle"
+    }
+  ],
+  "result": {
+    "item": "assortedcuisine:shroom_soda",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "assortedcuisine:sparkling_water_bottle"
+    }
+  ],
+  "result": {
+    "item": "assortedcuisine:golden_apple_soda",
+    "count": 1
+  }
+}

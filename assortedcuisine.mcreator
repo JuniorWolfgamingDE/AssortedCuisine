@@ -61,14 +61,605 @@
         ]
       },
       "path": "~/Dragon Fruit"
+    },
+    {
+      "name": "AppleSodaFinishes",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_soda_finishes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/procedures/AppleSodaFinishesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Soda"
+    },
+    {
+      "name": "AppleSoda",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_soda",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/assortedcuisine/models/item/apple_soda.json",
+          "src/main/java/net/juniorwmg/assortedcuisine/item/AppleSodaItem.java"
+        ]
+      },
+      "path": "~/Soda"
+    },
+    {
+      "name": "GoldenAppleSodaFinishes",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_apple_soda_finishes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/procedures/GoldenAppleSodaFinishesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Soda"
+    },
+    {
+      "name": "GoldenAppleSoda",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_apple_soda",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/assortedcuisine/models/item/golden_apple_soda.json",
+          "src/main/java/net/juniorwmg/assortedcuisine/item/GoldenAppleSodaItem.java"
+        ]
+      },
+      "path": "~/Soda"
+    },
+    {
+      "name": "CocoaSoda",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cocoa_soda",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/assortedcuisine/models/item/cocoa_soda.json",
+          "src/main/java/net/juniorwmg/assortedcuisine/item/CocoaSodaItem.java"
+        ]
+      },
+      "path": "~/Soda"
+    },
+    {
+      "name": "CocoaSodaFinishes",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cocoa_soda_finishes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/procedures/CocoaSodaFinishesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Soda"
+    },
+    {
+      "name": "RootSoda",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "root_soda",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/item/RootSodaItem.java",
+          "src/main/resources/assets/assortedcuisine/models/item/root_soda.json"
+        ]
+      },
+      "path": "~/Soda"
+    },
+    {
+      "name": "RootSodaFinishes",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "root_soda_finishes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/procedures/RootSodaFinishesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Soda"
+    },
+    {
+      "name": "DiamondSoda",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_soda",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/assortedcuisine/models/item/diamond_soda.json",
+          "src/main/java/net/juniorwmg/assortedcuisine/item/DiamondSodaItem.java"
+        ]
+      },
+      "path": "~/Soda"
+    },
+    {
+      "name": "DiamondSodaFinishes",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_soda_finishes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/procedures/DiamondSodaFinishesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Soda"
+    },
+    {
+      "name": "ShroomSoda",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shroom_soda",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/assortedcuisine/models/item/shroom_soda.json",
+          "src/main/java/net/juniorwmg/assortedcuisine/item/ShroomSodaItem.java"
+        ]
+      },
+      "path": "~/Soda"
+    },
+    {
+      "name": "ShroomSodaFinishes",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shroom_soda_finishes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/procedures/ShroomSodaFinishesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Soda"
+    },
+    {
+      "name": "PumpkinSoda",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pumpkin_soda",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/assortedcuisine/models/item/pumpkin_soda.json",
+          "src/main/java/net/juniorwmg/assortedcuisine/item/PumpkinSodaItem.java"
+        ]
+      },
+      "path": "~/Soda"
+    },
+    {
+      "name": "PumpkinSodaFinishes",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pumpkin_soda_finishes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/procedures/PumpkinSodaFinishesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Soda"
+    },
+    {
+      "name": "CreamPumpkinSoda",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cream_pumpkin_soda",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/assortedcuisine/models/item/cream_pumpkin_soda.json",
+          "src/main/java/net/juniorwmg/assortedcuisine/item/CreamPumpkinSodaItem.java"
+        ]
+      },
+      "path": "~/Soda"
+    },
+    {
+      "name": "CreamPumpkinSodaFinishes",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cream_pumpkin_soda_finishes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/procedures/CreamPumpkinSodaFinishesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Soda"
+    },
+    {
+      "name": "SpikedPumpkinSoda",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spiked_pumpkin_soda",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/item/SpikedPumpkinSodaItem.java",
+          "src/main/resources/assets/assortedcuisine/models/item/spiked_pumpkin_soda.json"
+        ]
+      },
+      "path": "~/Soda"
+    },
+    {
+      "name": "SpikedPumpkinSodaFinishes",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spiked_pumpkin_soda_finishes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/procedures/SpikedPumpkinSodaFinishesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Soda"
+    },
+    {
+      "name": "SlurmSoda",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slurm_soda",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/item/SlurmSodaItem.java",
+          "src/main/resources/assets/assortedcuisine/models/item/slurm_soda.json"
+        ]
+      },
+      "path": "~/Soda"
+    },
+    {
+      "name": "SlurmSodaFinishes",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slurm_soda_finishes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/procedures/SlurmSodaFinishesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Soda"
+    },
+    {
+      "name": "CarbonDioxideCylinder",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carbon_dioxide_cylinder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/item/CarbonDioxideCylinderItem.java",
+          "src/main/resources/assets/assortedcuisine/models/item/carbon_dioxide_cylinder.json"
+        ]
+      },
+      "path": "~/Soda"
+    },
+    {
+      "name": "FilledCarbonDioxideCylinder",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "filled_carbon_dioxide_cylinder",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/assortedcuisine/models/item/filled_carbon_dioxide_cylinder.json",
+          "src/main/java/net/juniorwmg/assortedcuisine/item/FilledCarbonDioxideCylinderItem.java"
+        ]
+      },
+      "path": "~/Soda"
+    },
+    {
+      "name": "SparklingWaterBottle",
+      "type": "item",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sparkling_water_bottle",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/item/SparklingWaterBottleItem.java",
+          "src/main/resources/assets/assortedcuisine/models/item/sparkling_water_bottle.json"
+        ]
+      },
+      "path": "~/Soda"
+    },
+    {
+      "name": "AppleSodaRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_soda_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/apple_soda_recipe.json"
+        ]
+      },
+      "path": "~/Soda"
+    },
+    {
+      "name": "GoldenAppleSodaRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_apple_soda_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/golden_apple_soda_recipe.json"
+        ]
+      },
+      "path": "~/Soda"
+    },
+    {
+      "name": "CocoaSodaRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cocoa_soda_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/cocoa_soda_recipe.json"
+        ]
+      },
+      "path": "~/Soda"
+    },
+    {
+      "name": "RootSodaRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "root_soda_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/root_soda_recipe.json"
+        ]
+      },
+      "path": "~/Soda"
+    },
+    {
+      "name": "DiamondSodaRecipe",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_soda_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/diamond_soda_recipe.json"
+        ]
+      },
+      "path": "~/Soda"
+    },
+    {
+      "name": "ShroomSodaRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "shroom_soda_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/shroom_soda_recipe.json"
+        ]
+      },
+      "path": "~/Soda"
+    },
+    {
+      "name": "PumpkinSodaRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pumpkin_soda_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/pumpkin_soda_recipe.json"
+        ]
+      },
+      "path": "~/Soda"
+    },
+    {
+      "name": "CreamPumpkinSodaRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cream_pumpkin_soda_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/cream_pumpkin_soda_recipe.json"
+        ]
+      },
+      "path": "~/Soda"
+    },
+    {
+      "name": "SpikedPumpkinSodaRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spiked_pumpkin_soda_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/spiked_pumpkin_soda_recipe.json"
+        ]
+      },
+      "path": "~/Soda"
+    },
+    {
+      "name": "SlurmSodaRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slurm_soda_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/slurm_soda_recipe.json"
+        ]
+      },
+      "path": "~/Soda"
+    },
+    {
+      "name": "CarbonDioxideCylinderRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carbon_dioxide_cylinder_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/carbon_dioxide_cylinder_recipe.json"
+        ]
+      },
+      "path": "~/Soda"
+    },
+    {
+      "name": "FilledCarbonDioxideCylinderRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "filled_carbon_dioxide_cylinder_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/filled_carbon_dioxide_cylinder_recipe.json"
+        ]
+      },
+      "path": "~/Soda"
+    },
+    {
+      "name": "SparklingWaterBottleRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sparkling_water_bottle_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/sparkling_water_bottle_recipe.json"
+        ]
+      },
+      "path": "~/Soda"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.assortedcuisine.sparkling_water_bottle": "Bottle of Sparkling Water",
       "item_group.assortedcuisine.assorted_cuisine": "Assorted Cuisine",
-      "item.assortedcuisine.dragon_fruit": "Dragon Fruit"
+      "item.assortedcuisine.diamond_soda": "Diamond Soda",
+      "item.assortedcuisine.root_soda": "Root Beer",
+      "item.assortedcuisine.slurm_soda": "Slurm",
+      "item.assortedcuisine.cocoa_soda": "Cocoa Drink",
+      "item.assortedcuisine.golden_apple_soda": "Golden Apple Soda",
+      "item.assortedcuisine.spiked_pumpkin_soda": "Spiked Pumpkin Soda",
+      "item.assortedcuisine.cream_pumpkin_soda": "Cream Pumpkin Soda",
+      "item.assortedcuisine.pumpkin_soda": "Pumpkin Soda",
+      "item.assortedcuisine.shroom_soda": "Mushroom Soda",
+      "item.assortedcuisine.dragon_fruit": "Dragon Fruit",
+      "item.assortedcuisine.apple_soda": "Apple Soda",
+      "death.attack.cuisine.spikedpumpkin": "A player drank to much spiked soda",
+      "item.assortedcuisine.carbon_dioxide_cylinder": "Empty Co² Cylinder",
+      "item.assortedcuisine.filled_carbon_dioxide_cylinder": "Filled Co² Cylinder"
     }
   },
   "foldersRoot": {

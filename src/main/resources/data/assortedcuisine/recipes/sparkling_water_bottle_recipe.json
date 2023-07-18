@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:potion"
+    },
+    {
+      "item": "assortedcuisine:filled_carbon_dioxide_cylinder"
+    }
+  ],
+  "result": {
+    "item": "assortedcuisine:sparkling_water_bottle",
+    "count": 1
+  }
+}
