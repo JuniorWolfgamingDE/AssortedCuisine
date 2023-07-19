@@ -1018,6 +1018,41 @@
         ]
       },
       "path": "~/Dairy"
+    },
+    {
+      "name": "CheeseMaker",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_maker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/block/entity/CheeseMakerBlockEntity.java",
+          "src/main/resources/assets/assortedcuisine/models/block/cheese_maker.json",
+          "src/main/resources/assets/assortedcuisine/models/item/cheese_maker.json",
+          "src/main/java/net/juniorwmg/assortedcuisine/block/CheeseMakerBlock.java",
+          "src/main/resources/assets/assortedcuisine/blockstates/cheese_maker.json"
+        ]
+      },
+      "path": "~/Dairy"
+    },
+    {
+      "name": "CheeseBlock",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/assortedcuisine/models/item/cheese_block.json",
+          "src/main/java/net/juniorwmg/assortedcuisine/block/CheeseBlockBlock.java",
+          "src/main/resources/assets/assortedcuisine/models/block/cheese_block.json",
+          "src/main/resources/assets/assortedcuisine/blockstates/cheese_block.json"
+        ]
+      },
+      "path": "~/Dairy"
     }
   ],
   "variable_elements": [],
@@ -1038,6 +1073,7 @@
       "item.assortedcuisine.apple_soda": "Apple Soda",
       "item.assortedcuisine.carbon_dioxide_cylinder": "Empty Co² Cylinder",
       "item.assortedcuisine.filled_carbon_dioxide_cylinder": "Filled Co² Cylinder",
+      "block.assortedcuisine.cheese_maker": "Cheese Maker",
       "item.assortedcuisine.sugar_sweets": "Sugar Sweets",
       "item.assortedcuisine.health_pack": "Health Pack",
       "item.assortedcuisine.spiked_pumpkin_soda": "Spiked Pumpkin Soda",
@@ -1047,6 +1083,7 @@
       "item.assortedcuisine.super_sugar_sweets": "Super Sugar Sweets",
       "item.assortedcuisine.pumpkin_soda": "Pumpkin Soda",
       "block.assortedcuisine.butter_churn": "Butter Churn",
+      "block.assortedcuisine.cheese_block": "Cheese Block",
       "item.assortedcuisine.shroom_soda": "Mushroom Soda",
       "item.assortedcuisine.dragon_fruit": "Dragon Fruit",
       "death.attack.cuisine.spikedpumpkin": "A player drank to much spiked soda"

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "all": "cheese_block"
+      },
+      "name": "default"
+    }
+  }
+}

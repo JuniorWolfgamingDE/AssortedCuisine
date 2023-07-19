@@ -1,0 +1,8 @@
+{
+  "parent": "assortedcuisine:custom/cheese_block",
+  "textures": {
+    "all": "assortedcuisine:block/cheese_block",
+    "particle": "assortedcuisine:block/cheese_block"
+  },
+  "render_type": "solid"
+}

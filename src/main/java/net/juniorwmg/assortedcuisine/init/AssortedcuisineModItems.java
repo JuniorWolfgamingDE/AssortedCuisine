@@ -59,6 +59,8 @@ public class AssortedcuisineModItems {
 	public static final RegistryObject<Item> SUPER_HEALTH_PACK = REGISTRY.register("super_health_pack", () -> new SuperHealthPackItem());
 	public static final RegistryObject<Item> BUTTER = REGISTRY.register("butter", () -> new ButterItem());
 	public static final RegistryObject<Item> BUTTER_CHURN = block(AssortedcuisineModBlocks.BUTTER_CHURN);
+	public static final RegistryObject<Item> CHEESE_MAKER = block(AssortedcuisineModBlocks.CHEESE_MAKER);
+	public static final RegistryObject<Item> CHEESE_BLOCK = block(AssortedcuisineModBlocks.CHEESE_BLOCK);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

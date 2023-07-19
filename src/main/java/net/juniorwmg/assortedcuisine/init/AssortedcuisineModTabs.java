@@ -40,6 +40,8 @@ public class AssortedcuisineModTabs {
 					tabData.accept(AssortedcuisineModItems.SUPER_HEALTH_PACK.get());
 					tabData.accept(AssortedcuisineModItems.BUTTER.get());
 					tabData.accept(AssortedcuisineModBlocks.BUTTER_CHURN.get().asItem());
+					tabData.accept(AssortedcuisineModBlocks.CHEESE_MAKER.get().asItem());
+					tabData.accept(AssortedcuisineModBlocks.CHEESE_BLOCK.get().asItem());
 				})
 
 		);
