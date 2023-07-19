@@ -8,7 +8,6 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.CreativeModeTabEvent;
 
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
@@ -18,7 +17,7 @@ public class AssortedcuisineModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsModded(CreativeModeTabEvent.Register event) {
 		event.registerCreativeModeTab(new ResourceLocation("assortedcuisine", "assorted_cuisine"),
-				builder -> builder.title(Component.translatable("item_group.assortedcuisine.assorted_cuisine")).icon(() -> new ItemStack(Items.DRAGON_BREATH)).displayItems((parameters, tabData) -> {
+				builder -> builder.title(Component.translatable("item_group.assortedcuisine.assorted_cuisine")).icon(() -> new ItemStack(AssortedcuisineModItems.SLURM_SODA.get())).displayItems((parameters, tabData) -> {
 					tabData.accept(AssortedcuisineModItems.DRAGON_FRUIT.get());
 					tabData.accept(AssortedcuisineModItems.APPLE_SODA.get());
 					tabData.accept(AssortedcuisineModItems.GOLDEN_APPLE_SODA.get());

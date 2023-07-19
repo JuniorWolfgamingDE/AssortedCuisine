@@ -1000,6 +1000,20 @@
         "type": "logic"
       },
       "path": "~/Dairy"
+    },
+    {
+      "name": "ButterChurnRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "butter_churn_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/butter_churn_recipe.json"
+        ]
+      },
+      "path": "~/Dairy"
     }
   ],
   "variable_elements": [],

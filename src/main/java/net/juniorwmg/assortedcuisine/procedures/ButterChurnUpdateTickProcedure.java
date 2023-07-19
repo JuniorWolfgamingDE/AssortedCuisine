@@ -4,7 +4,9 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.network.chat.Component;
+import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.BlockPos;
 
 import net.juniorwmg.assortedcuisine.init.AssortedcuisineModGameRules;
@@ -22,6 +24,8 @@ public class ButterChurnUpdateTickProcedure {
 			if (world.getLevelData().getGameRules().getBoolean(AssortedcuisineModGameRules.BUTTER_DEBUG_TICK_MESSAGE) == true) {
 				if (!world.isClientSide() && world.getServer() != null)
 					world.getServer().getPlayerList().broadcastSystemMessage(Component.literal("\u00A77\u00A7oButter Churn Tick"), false);
+				if (world instanceof ServerLevel _level)
+					_level.sendParticles(ParticleTypes.CLOUD, x, (y + 1), z, 5, 1, 1, 1, 1);
 			}
 			if (!world.isClientSide()) {
 				BlockPos _bp = BlockPos.containing(x, y, z);
