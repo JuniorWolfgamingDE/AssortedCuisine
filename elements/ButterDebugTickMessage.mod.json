@@ -3,8 +3,8 @@
   "_type": "gamerule",
   "definition": {
     "type": "Logic",
-    "displayName": "[Debug] Notify on butter churn tick",
-    "description": "Sends a chat message when an active butter churn ticks.",
+    "displayName": "[Debug] Notify on dairy tick",
+    "description": "Sends a chat message when an active butter churn or cheese maker ticks.",
     "category": "CHAT",
     "defaultValueLogic": false,
     "defaultValueNumber": 0

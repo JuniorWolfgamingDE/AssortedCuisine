@@ -1,6 +1,7 @@
 
 package net.juniorwmg.assortedcuisine.block;
 
+import net.minecraft.world.phys.HitResult;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
@@ -12,6 +13,7 @@ import net.minecraft.world.level.block.EntityBlock;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
@@ -20,24 +22,37 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.util.RandomSource;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.network.chat.Component;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.juniorwmg.assortedcuisine.procedures.CheeseMakerUpdateTickProcedure;
 import net.juniorwmg.assortedcuisine.procedures.CheeseMakerRightClickedProcedure;
-import net.juniorwmg.assortedcuisine.block.entity.CheeseMakerBlockEntity;
+import net.juniorwmg.assortedcuisine.init.AssortedcuisineModBlocks;
+import net.juniorwmg.assortedcuisine.block.entity.CheeseMaker2BlockEntity;
 
 import java.util.List;
 import java.util.Collections;
 
-public class CheeseMakerBlock extends Block implements EntityBlock {
-	public CheeseMakerBlock() {
+public class CheeseMaker2Block extends Block implements EntityBlock {
+	public CheeseMaker2Block() {
 		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f).requiresCorrectToolForDrops().randomTicks());
+	}
+
+	@Override
+	public void appendHoverText(ItemStack itemstack, BlockGetter world, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, world, list, flag);
+		list.add(Component.literal("[DEBUG]"));
 	}
 
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 15;
+	}
+
+	@Override
+	public ItemStack getCloneItemStack(BlockState state, HitResult target, BlockGetter world, BlockPos pos, Player player) {
+		return new ItemStack(AssortedcuisineModBlocks.CHEESE_MAKER.get());
 	}
 
 	@Override
@@ -52,7 +67,7 @@ public class CheeseMakerBlock extends Block implements EntityBlock {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(this, 1));
+		return Collections.singletonList(new ItemStack(AssortedcuisineModBlocks.CHEESE_MAKER.get()));
 	}
 
 	@Override
@@ -86,7 +101,7 @@ public class CheeseMakerBlock extends Block implements EntityBlock {
 
 	@Override
 	public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
-		return new CheeseMakerBlockEntity(pos, state);
+		return new CheeseMaker2BlockEntity(pos, state);
 	}
 
 	@Override

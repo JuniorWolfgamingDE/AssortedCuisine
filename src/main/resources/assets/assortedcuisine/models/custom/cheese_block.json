@@ -1,4 +1,5 @@
 {
+  "credit": "Made with Blockbench",
   "elements": [
     {
       "from": [
@@ -12,26 +13,16 @@
         15
       ],
       "faces": {
-        "down": {
+        "north": {
           "uv": [
             1,
-            1,
+            8,
             15,
-            15
-          ],
-          "texture": "#all",
-          "cullface": "down"
-        },
-        "up": {
-          "uv": [
-            1,
-            1,
-            15,
-            15
+            16
           ],
           "texture": "#all"
         },
-        "north": {
+        "east": {
           "uv": [
             1,
             8,
@@ -58,16 +49,40 @@
           ],
           "texture": "#all"
         },
-        "east": {
+        "up": {
           "uv": [
             1,
-            8,
+            1,
             15,
-            16
+            15
           ],
           "texture": "#all"
+        },
+        "down": {
+          "uv": [
+            1,
+            1,
+            15,
+            15
+          ],
+          "texture": "#all",
+          "cullface": "down"
         }
       }
     }
-  ]
+  ],
+  "display": {
+    "ground": {
+      "translation": [
+        0,
+        3,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  }
 }

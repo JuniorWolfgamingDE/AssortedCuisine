@@ -1053,23 +1053,129 @@
         ]
       },
       "path": "~/Dairy"
+    },
+    {
+      "name": "CheeseMakerUpdateTick",
+      "type": "procedure",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_maker_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/procedures/CheeseMakerUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dairy"
+    },
+    {
+      "name": "CheeseMakerRightClicked",
+      "type": "procedure",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_maker_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/procedures/CheeseMakerRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dairy"
+    },
+    {
+      "name": "CheeseMaker2",
+      "type": "block",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_maker_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/assortedcuisine/models/item/cheese_maker_2.json",
+          "src/main/java/net/juniorwmg/assortedcuisine/block/CheeseMaker2Block.java",
+          "src/main/java/net/juniorwmg/assortedcuisine/block/entity/CheeseMaker2BlockEntity.java",
+          "src/main/resources/assets/assortedcuisine/blockstates/cheese_maker_2.json",
+          "src/main/resources/assets/assortedcuisine/models/block/cheese_maker_2.json"
+        ]
+      },
+      "path": "~/Dairy"
+    },
+    {
+      "name": "CheeseMaker3",
+      "type": "block",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_maker_3",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/block/CheeseMaker3Block.java",
+          "src/main/java/net/juniorwmg/assortedcuisine/block/entity/CheeseMaker3BlockEntity.java",
+          "src/main/resources/assets/assortedcuisine/blockstates/cheese_maker_3.json",
+          "src/main/resources/assets/assortedcuisine/models/item/cheese_maker_3.json",
+          "src/main/resources/assets/assortedcuisine/models/block/cheese_maker_3.json"
+        ]
+      },
+      "path": "~/Dairy"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "gamerule.butterDebugTickMessage.description": "Sends a chat message when an active butter churn ticks.",
+      "gamerule.butterDebugTickMessage.description": "Sends a chat message when an active butter churn or cheese maker ticks.",
       "item.assortedcuisine.sparkling_water_bottle": "Bottle of Sparkling Water",
       "item.assortedcuisine.super_sugar": "Super Sugar",
       "item_group.assortedcuisine.assorted_cuisine": "Assorted Cuisine",
       "item.assortedcuisine.diamond_soda": "Diamond Soda",
       "item.assortedcuisine.root_soda": "Root Beer",
       "item.assortedcuisine.slurm_soda": "Slurm",
-      "gamerule.butterDebugTickMessage": "[Debug] Notify on butter churn tick",
+      "gamerule.butterDebugTickMessage": "[Debug] Notify on dairy tick",
       "item.assortedcuisine.cocoa_soda": "Cocoa Drink",
       "item.assortedcuisine.golden_apple_soda": "Golden Apple Soda",
       "item.assortedcuisine.bandage": "Bandage",
+      "block.assortedcuisine.cheese_maker_2": "Cheese Maker",
+      "block.assortedcuisine.cheese_maker_3": "Cheese Maker",
       "item.assortedcuisine.apple_soda": "Apple Soda",
       "item.assortedcuisine.carbon_dioxide_cylinder": "Empty Co² Cylinder",
       "item.assortedcuisine.filled_carbon_dioxide_cylinder": "Filled Co² Cylinder",

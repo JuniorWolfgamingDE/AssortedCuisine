@@ -3,7 +3,7 @@
   "_type": "block",
   "definition": {
     "texture": "cheesemakertop",
-    "textureTop": "cheesemakertop",
+    "textureTop": "cheesemakertop_finished",
     "textureLeft": "cheesemakerside",
     "textureFront": "cheesemakerside",
     "textureRight": "cheesemakerside",
@@ -34,17 +34,19 @@
       }
     ],
     "name": "Cheese Maker",
-    "specialInfo": [],
+    "specialInfo": [
+      "[DEBUG]"
+    ],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:AssortedCuisine"
+      "value": "No creative tab entry"
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:CheeseMaker"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -65,7 +67,7 @@
     },
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": ""
+      "value": "CUSTOM:CheeseMaker"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",

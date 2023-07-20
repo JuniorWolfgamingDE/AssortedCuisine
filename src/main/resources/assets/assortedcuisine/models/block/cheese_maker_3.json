@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "assortedcuisine:block/cheesemakertop",
+    "up": "assortedcuisine:block/cheesemakertop_finished",
+    "north": "assortedcuisine:block/cheesemakerside",
+    "east": "assortedcuisine:block/cheesemakerside",
+    "south": "assortedcuisine:block/cheesemakerside",
+    "west": "assortedcuisine:block/cheesemakerside",
+    "particle": "assortedcuisine:block/cheesemakertop"
+  },
+  "render_type": "solid"
+}

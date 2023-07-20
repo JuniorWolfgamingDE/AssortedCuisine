@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "assortedcuisine:cheese_maker"
+    "assortedcuisine:cheese_maker",
+    "assortedcuisine:cheese_maker_2",
+    "assortedcuisine:cheese_maker_3"
   ]
 }

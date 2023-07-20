@@ -11,6 +11,8 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.juniorwmg.assortedcuisine.block.CheeseMakerBlock;
+import net.juniorwmg.assortedcuisine.block.CheeseMaker3Block;
+import net.juniorwmg.assortedcuisine.block.CheeseMaker2Block;
 import net.juniorwmg.assortedcuisine.block.CheeseBlockBlock;
 import net.juniorwmg.assortedcuisine.block.ButterChurnBlock;
 import net.juniorwmg.assortedcuisine.AssortedcuisineMod;
@@ -20,4 +22,6 @@ public class AssortedcuisineModBlocks {
 	public static final RegistryObject<Block> BUTTER_CHURN = REGISTRY.register("butter_churn", () -> new ButterChurnBlock());
 	public static final RegistryObject<Block> CHEESE_MAKER = REGISTRY.register("cheese_maker", () -> new CheeseMakerBlock());
 	public static final RegistryObject<Block> CHEESE_BLOCK = REGISTRY.register("cheese_block", () -> new CheeseBlockBlock());
+	public static final RegistryObject<Block> CHEESE_MAKER_2 = REGISTRY.register("cheese_maker_2", () -> new CheeseMaker2Block());
+	public static final RegistryObject<Block> CHEESE_MAKER_3 = REGISTRY.register("cheese_maker_3", () -> new CheeseMaker3Block());
 }
