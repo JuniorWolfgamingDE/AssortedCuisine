@@ -42,6 +42,9 @@ public class AssortedcuisineModTabs {
 					tabData.accept(AssortedcuisineModBlocks.BUTTER_CHURN.get().asItem());
 					tabData.accept(AssortedcuisineModBlocks.CHEESE_MAKER.get().asItem());
 					tabData.accept(AssortedcuisineModBlocks.CHEESE_BLOCK.get().asItem());
+					tabData.accept(AssortedcuisineModItems.KNIFE.get());
+					tabData.accept(AssortedcuisineModItems.CHEESE.get());
+					tabData.accept(AssortedcuisineModItems.WHISK.get());
 				})
 
 		);

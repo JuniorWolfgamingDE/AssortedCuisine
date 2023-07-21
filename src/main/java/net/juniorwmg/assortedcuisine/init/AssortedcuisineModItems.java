@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.juniorwmg.assortedcuisine.item.WhiskItem;
 import net.juniorwmg.assortedcuisine.item.SuperSugarSweetsItem;
 import net.juniorwmg.assortedcuisine.item.SuperSugarItem;
 import net.juniorwmg.assortedcuisine.item.SuperHealthPackItem;
@@ -22,6 +23,7 @@ import net.juniorwmg.assortedcuisine.item.SlurmSodaItem;
 import net.juniorwmg.assortedcuisine.item.ShroomSodaItem;
 import net.juniorwmg.assortedcuisine.item.RootSodaItem;
 import net.juniorwmg.assortedcuisine.item.PumpkinSodaItem;
+import net.juniorwmg.assortedcuisine.item.KnifeItem;
 import net.juniorwmg.assortedcuisine.item.HealthPackItem;
 import net.juniorwmg.assortedcuisine.item.GoldenAppleSodaItem;
 import net.juniorwmg.assortedcuisine.item.FilledCarbonDioxideCylinderItem;
@@ -29,6 +31,7 @@ import net.juniorwmg.assortedcuisine.item.DragonFruitItem;
 import net.juniorwmg.assortedcuisine.item.DiamondSodaItem;
 import net.juniorwmg.assortedcuisine.item.CreamPumpkinSodaItem;
 import net.juniorwmg.assortedcuisine.item.CocoaSodaItem;
+import net.juniorwmg.assortedcuisine.item.CheeseItem;
 import net.juniorwmg.assortedcuisine.item.CarbonDioxideCylinderItem;
 import net.juniorwmg.assortedcuisine.item.ButterItem;
 import net.juniorwmg.assortedcuisine.item.BandageItem;
@@ -63,6 +66,9 @@ public class AssortedcuisineModItems {
 	public static final RegistryObject<Item> CHEESE_BLOCK = block(AssortedcuisineModBlocks.CHEESE_BLOCK);
 	public static final RegistryObject<Item> CHEESE_MAKER_2 = block(AssortedcuisineModBlocks.CHEESE_MAKER_2);
 	public static final RegistryObject<Item> CHEESE_MAKER_3 = block(AssortedcuisineModBlocks.CHEESE_MAKER_3);
+	public static final RegistryObject<Item> KNIFE = REGISTRY.register("knife", () -> new KnifeItem());
+	public static final RegistryObject<Item> CHEESE = REGISTRY.register("cheese", () -> new CheeseItem());
+	public static final RegistryObject<Item> WHISK = REGISTRY.register("whisk", () -> new WhiskItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

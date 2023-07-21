@@ -14,7 +14,7 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "",
+    "itemTexture": "cheeseblock_item",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
