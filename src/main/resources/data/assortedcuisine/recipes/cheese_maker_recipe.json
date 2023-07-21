@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:cobblestone"
+    },
+    "2": {
+      "item": "minecraft:cobblestone"
+    },
+    "3": {
+      "item": "minecraft:cobblestone"
+    },
+    "4": {
+      "item": "minecraft:bucket"
+    },
+    "5": {
+      "item": "minecraft:cobblestone"
+    },
+    "6": {
+      "item": "minecraft:cobblestone"
+    },
+    "7": {
+      "item": "minecraft:cobblestone"
+    },
+    "8": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "result": {
+    "item": "assortedcuisine:cheese_maker",
+    "count": 1
+  }
+}

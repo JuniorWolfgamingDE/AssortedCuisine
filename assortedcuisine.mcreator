@@ -1202,6 +1202,48 @@
         ]
       },
       "path": "~/Food"
+    },
+    {
+      "name": "CheeseBlockRecipe",
+      "type": "recipe",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/cheese_block_recipe.json"
+        ]
+      },
+      "path": "~/Dairy"
+    },
+    {
+      "name": "CheeseRecipe",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/cheese_recipe.json"
+        ]
+      },
+      "path": "~/Dairy"
+    },
+    {
+      "name": "CheeseMakerRecipe",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_maker_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/cheese_maker_recipe.json"
+        ]
+      },
+      "path": "~/Dairy"
     }
   ],
   "variable_elements": [],
