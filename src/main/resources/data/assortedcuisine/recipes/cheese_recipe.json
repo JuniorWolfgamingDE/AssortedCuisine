@@ -1,14 +1,11 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "pattern": [
-    "0"
-  ],
-  "key": {
-    "0": {
+  "ingredients": [
+    {
       "item": "assortedcuisine:cheese_block"
     }
-  },
+  ],
   "result": {
     "item": "assortedcuisine:cheese",
     "count": 9
