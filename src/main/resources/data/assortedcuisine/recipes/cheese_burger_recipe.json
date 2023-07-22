@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "assortedcuisine:bread_slice"
+    },
+    "3": {
+      "item": "assortedcuisine:cheese"
+    },
+    "4": {
+      "item": "minecraft:cooked_beef"
+    },
+    "5": {
+      "item": "assortedcuisine:cheese"
+    },
+    "7": {
+      "item": "assortedcuisine:bread_slice"
+    }
+  },
+  "result": {
+    "item": "assortedcuisine:cheese_burger",
+    "count": 1
+  }
+}

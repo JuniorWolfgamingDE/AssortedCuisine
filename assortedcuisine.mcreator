@@ -1244,6 +1244,242 @@
         ]
       },
       "path": "~/Dairy"
+    },
+    {
+      "name": "UnfinishedScrambledEggs",
+      "type": "item",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unfinished_scrambled_eggs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/item/UnfinishedScrambledEggsItem.java",
+          "src/main/resources/assets/assortedcuisine/models/item/unfinished_scrambled_eggs.json"
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "RawScrambledEggs",
+      "type": "item",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_scrambled_eggs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/item/RawScrambledEggsItem.java",
+          "src/main/resources/assets/assortedcuisine/models/item/raw_scrambled_eggs.json"
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "RawScrambledEggsFinishes",
+      "type": "procedure",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_scrambled_eggs_finishes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/procedures/RawScrambledEggsFinishesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "ScrambledEggs",
+      "type": "item",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scrambled_eggs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/assortedcuisine/models/item/scrambled_eggs.json",
+          "src/main/java/net/juniorwmg/assortedcuisine/item/ScrambledEggsItem.java"
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "KnifeRecipe",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "knife_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/knife_recipe.json"
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "WhiskRecipe",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whisk_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/whisk_recipe.json"
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "UnfinishedScrambledEggsRecipe",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unfinished_scrambled_eggs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/unfinished_scrambled_eggs_recipe.json"
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "RawScrambledEggsRecipe",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_scrambled_eggs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/raw_scrambled_eggs_recipe.json"
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "ScrambledEggsRecipe",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scrambled_eggs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/scrambled_eggs_recipe.json"
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "ScrambledEggsRecipe2",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scrambled_eggs_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/scrambled_eggs_recipe_2.json"
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "BreadSlice",
+      "type": "item",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bread_slice",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/item/BreadSliceItem.java",
+          "src/main/resources/assets/assortedcuisine/models/item/bread_slice.json"
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "BreadSliceRecipe",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bread_slice_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/bread_slice_recipe.json"
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "HotCheeseSandwhich",
+      "type": "item",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hot_cheese_sandwhich",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/assortedcuisine/models/item/hot_cheese_sandwhich.json",
+          "src/main/java/net/juniorwmg/assortedcuisine/item/HotCheeseSandwhichItem.java"
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "CheeseBurger",
+      "type": "item",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_burger",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/assortedcuisine/models/item/cheese_burger.json",
+          "src/main/java/net/juniorwmg/assortedcuisine/item/CheeseBurgerItem.java"
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "HotCheeseSandwhichRecipe",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hot_cheese_sandwhich_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/hot_cheese_sandwhich_recipe.json"
+        ]
+      },
+      "path": "~/Food"
+    },
+    {
+      "name": "CheeseBurgerRecipe",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_burger_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/cheese_burger_recipe.json"
+        ]
+      },
+      "path": "~/Food"
     }
   ],
   "variable_elements": [],
@@ -1254,20 +1490,26 @@
       "item.assortedcuisine.sparkling_water_bottle": "Bottle of Sparkling Water",
       "item.assortedcuisine.super_sugar": "Super Sugar",
       "item.assortedcuisine.knife": "Knife",
+      "item.assortedcuisine.cheese_burger": "Cheese Burger",
       "item_group.assortedcuisine.assorted_cuisine": "Assorted Cuisine",
       "item.assortedcuisine.diamond_soda": "Diamond Soda",
       "item.assortedcuisine.root_soda": "Root Beer",
       "item.assortedcuisine.whisk": "Whisk",
       "item.assortedcuisine.slurm_soda": "Slurm",
       "gamerule.butterDebugTickMessage": "[Debug] Notify on dairy tick",
+      "item.assortedcuisine.bread_slice": "Bread Slice",
       "item.assortedcuisine.cocoa_soda": "Cocoa Drink",
       "item.assortedcuisine.golden_apple_soda": "Golden Apple Soda",
+      "item.assortedcuisine.hot_cheese_sandwhich": "Hot Cheese Sandwhich",
+      "item.assortedcuisine.unfinished_scrambled_eggs": "Bowl of Butter and Eggs",
       "item.assortedcuisine.bandage": "Bandage",
       "block.assortedcuisine.cheese_maker_2": "Cheese Maker",
       "block.assortedcuisine.cheese_maker_3": "Cheese Maker",
       "item.assortedcuisine.apple_soda": "Apple Soda",
       "item.assortedcuisine.carbon_dioxide_cylinder": "Empty Co² Cylinder",
       "item.assortedcuisine.filled_carbon_dioxide_cylinder": "Filled Co² Cylinder",
+      "item.assortedcuisine.raw_scrambled_eggs": "Raw Scrambled Eggs",
+      "item.assortedcuisine.scrambled_eggs": "Scrambled Eggs",
       "block.assortedcuisine.cheese_maker": "Cheese Maker",
       "item.assortedcuisine.sugar_sweets": "Sugar Sweets",
       "item.assortedcuisine.health_pack": "Health Pack",

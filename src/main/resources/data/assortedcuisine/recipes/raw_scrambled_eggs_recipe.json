@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "assortedcuisine:unfinished_scrambled_eggs"
+    },
+    {
+      "item": "assortedcuisine:whisk"
+    }
+  ],
+  "result": {
+    "item": "assortedcuisine:raw_scrambled_eggs",
+    "count": 1
+  }
+}

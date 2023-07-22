@@ -45,6 +45,12 @@ public class AssortedcuisineModTabs {
 					tabData.accept(AssortedcuisineModItems.KNIFE.get());
 					tabData.accept(AssortedcuisineModItems.CHEESE.get());
 					tabData.accept(AssortedcuisineModItems.WHISK.get());
+					tabData.accept(AssortedcuisineModItems.UNFINISHED_SCRAMBLED_EGGS.get());
+					tabData.accept(AssortedcuisineModItems.RAW_SCRAMBLED_EGGS.get());
+					tabData.accept(AssortedcuisineModItems.SCRAMBLED_EGGS.get());
+					tabData.accept(AssortedcuisineModItems.BREAD_SLICE.get());
+					tabData.accept(AssortedcuisineModItems.HOT_CHEESE_SANDWHICH.get());
+					tabData.accept(AssortedcuisineModItems.CHEESE_BURGER.get());
 				})
 
 		);

@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.juniorwmg.assortedcuisine.item.WhiskItem;
+import net.juniorwmg.assortedcuisine.item.UnfinishedScrambledEggsItem;
 import net.juniorwmg.assortedcuisine.item.SuperSugarSweetsItem;
 import net.juniorwmg.assortedcuisine.item.SuperSugarItem;
 import net.juniorwmg.assortedcuisine.item.SuperHealthPackItem;
@@ -21,9 +22,12 @@ import net.juniorwmg.assortedcuisine.item.SpikedPumpkinSodaItem;
 import net.juniorwmg.assortedcuisine.item.SparklingWaterBottleItem;
 import net.juniorwmg.assortedcuisine.item.SlurmSodaItem;
 import net.juniorwmg.assortedcuisine.item.ShroomSodaItem;
+import net.juniorwmg.assortedcuisine.item.ScrambledEggsItem;
 import net.juniorwmg.assortedcuisine.item.RootSodaItem;
+import net.juniorwmg.assortedcuisine.item.RawScrambledEggsItem;
 import net.juniorwmg.assortedcuisine.item.PumpkinSodaItem;
 import net.juniorwmg.assortedcuisine.item.KnifeItem;
+import net.juniorwmg.assortedcuisine.item.HotCheeseSandwhichItem;
 import net.juniorwmg.assortedcuisine.item.HealthPackItem;
 import net.juniorwmg.assortedcuisine.item.GoldenAppleSodaItem;
 import net.juniorwmg.assortedcuisine.item.FilledCarbonDioxideCylinderItem;
@@ -32,8 +36,10 @@ import net.juniorwmg.assortedcuisine.item.DiamondSodaItem;
 import net.juniorwmg.assortedcuisine.item.CreamPumpkinSodaItem;
 import net.juniorwmg.assortedcuisine.item.CocoaSodaItem;
 import net.juniorwmg.assortedcuisine.item.CheeseItem;
+import net.juniorwmg.assortedcuisine.item.CheeseBurgerItem;
 import net.juniorwmg.assortedcuisine.item.CarbonDioxideCylinderItem;
 import net.juniorwmg.assortedcuisine.item.ButterItem;
+import net.juniorwmg.assortedcuisine.item.BreadSliceItem;
 import net.juniorwmg.assortedcuisine.item.BandageItem;
 import net.juniorwmg.assortedcuisine.item.AppleSodaItem;
 import net.juniorwmg.assortedcuisine.AssortedcuisineMod;
@@ -69,6 +75,12 @@ public class AssortedcuisineModItems {
 	public static final RegistryObject<Item> KNIFE = REGISTRY.register("knife", () -> new KnifeItem());
 	public static final RegistryObject<Item> CHEESE = REGISTRY.register("cheese", () -> new CheeseItem());
 	public static final RegistryObject<Item> WHISK = REGISTRY.register("whisk", () -> new WhiskItem());
+	public static final RegistryObject<Item> UNFINISHED_SCRAMBLED_EGGS = REGISTRY.register("unfinished_scrambled_eggs", () -> new UnfinishedScrambledEggsItem());
+	public static final RegistryObject<Item> RAW_SCRAMBLED_EGGS = REGISTRY.register("raw_scrambled_eggs", () -> new RawScrambledEggsItem());
+	public static final RegistryObject<Item> SCRAMBLED_EGGS = REGISTRY.register("scrambled_eggs", () -> new ScrambledEggsItem());
+	public static final RegistryObject<Item> BREAD_SLICE = REGISTRY.register("bread_slice", () -> new BreadSliceItem());
+	public static final RegistryObject<Item> HOT_CHEESE_SANDWHICH = REGISTRY.register("hot_cheese_sandwhich", () -> new HotCheeseSandwhichItem());
+	public static final RegistryObject<Item> CHEESE_BURGER = REGISTRY.register("cheese_burger", () -> new CheeseBurgerItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
