@@ -1,0 +1,12 @@
+{
+  "_fv": 43,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "[Debug] Notify on cheese eaten (player-specific)",
+    "description": "Sends a chat message containing your cheese-counter whenever you eat cheese.",
+    "category": "CHAT",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 0
+  }
+}

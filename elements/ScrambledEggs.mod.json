@@ -5,6 +5,8 @@
     "renderType": 0,
     "texture": "finished_scrambledeggs",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Scrambled Eggs",
     "rarity": "COMMON",
     "creativeTab": {

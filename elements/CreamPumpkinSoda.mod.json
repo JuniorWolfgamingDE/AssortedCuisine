@@ -5,6 +5,8 @@
     "renderType": 0,
     "texture": "creampumpkinsoda",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Cream Pumpkin Soda",
     "rarity": "COMMON",
     "creativeTab": {

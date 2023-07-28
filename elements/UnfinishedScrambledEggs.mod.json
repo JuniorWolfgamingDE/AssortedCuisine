@@ -5,6 +5,8 @@
     "renderType": 0,
     "texture": "unfinished_scrambledeggs",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Bowl of Butter and Eggs",
     "rarity": "COMMON",
     "creativeTab": {

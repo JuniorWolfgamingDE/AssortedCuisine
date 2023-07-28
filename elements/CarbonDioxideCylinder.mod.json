@@ -5,6 +5,8 @@
     "renderType": 0,
     "texture": "co2_1",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Empty Co² Cylinder",
     "rarity": "COMMON",
     "creativeTab": {

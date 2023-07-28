@@ -5,6 +5,8 @@
     "renderType": 0,
     "texture": "superhealthpack",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Super Health Pack",
     "rarity": "COMMON",
     "creativeTab": {

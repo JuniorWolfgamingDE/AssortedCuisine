@@ -5,6 +5,8 @@
     "renderType": 0,
     "texture": "hot_cheese",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Hot Cheese Sandwhich",
     "rarity": "COMMON",
     "creativeTab": {

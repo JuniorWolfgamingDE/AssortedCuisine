@@ -5,6 +5,8 @@
     "renderType": 0,
     "texture": "rootbeer",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Root Beer",
     "rarity": "COMMON",
     "creativeTab": {

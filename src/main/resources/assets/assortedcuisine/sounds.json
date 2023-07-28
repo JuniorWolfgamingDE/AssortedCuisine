@@ -1,0 +1,11 @@
+{
+  "mrcheese": {
+    "subtitle": "subtitles.mrcheese",
+    "sounds": [
+      {
+        "name": "assortedcuisine:mrcheese",
+        "stream": false
+      }
+    ]
+  }
+}

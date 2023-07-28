@@ -5,6 +5,8 @@
     "renderType": 0,
     "texture": "diamondsoda",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Diamond Soda",
     "rarity": "COMMON",
     "creativeTab": {

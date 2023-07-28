@@ -5,6 +5,8 @@
     "renderType": 0,
     "texture": "supersugarsweets",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Super Sugar Sweets",
     "rarity": "COMMON",
     "creativeTab": {

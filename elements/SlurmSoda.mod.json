@@ -5,6 +5,8 @@
     "renderType": 0,
     "texture": "slurm",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Slurm",
     "rarity": "COMMON",
     "creativeTab": {

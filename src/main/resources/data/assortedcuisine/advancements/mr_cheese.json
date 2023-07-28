@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "assortedcuisine:mr_cheese_item"
+    },
+    "title": {
+      "translate": "advancements.mr_cheese.title"
+    },
+    "description": {
+      "translate": "advancements.mr_cheese.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "mr_cheese": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "minecraft:husbandry/plant_seed"
+}

@@ -5,6 +5,8 @@
     "renderType": 0,
     "texture": "raw_scrambledeggs",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Raw Scrambled Eggs",
     "rarity": "COMMON",
     "creativeTab": {

@@ -5,6 +5,8 @@
     "renderType": 0,
     "texture": "healthpack",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Health Pack",
     "rarity": "COMMON",
     "creativeTab": {

@@ -5,6 +5,8 @@
     "renderType": 0,
     "texture": "bandage",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Bandage",
     "rarity": "COMMON",
     "creativeTab": {

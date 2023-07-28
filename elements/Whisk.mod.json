@@ -5,6 +5,8 @@
     "renderType": 0,
     "texture": "whisk",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Whisk",
     "rarity": "COMMON",
     "creativeTab": {

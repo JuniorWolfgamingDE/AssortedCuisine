@@ -1480,51 +1480,484 @@
         ]
       },
       "path": "~/Food"
+    },
+    {
+      "name": "PumpkinSlice",
+      "type": "item",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pumpkin_slice",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/item/PumpkinSliceItem.java",
+          "src/main/resources/assets/assortedcuisine/models/item/pumpkin_slice.json"
+        ]
+      },
+      "path": "~/Pies"
+    },
+    {
+      "name": "Dough",
+      "type": "item",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dough",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/item/DoughItem.java",
+          "src/main/resources/assets/assortedcuisine/models/item/dough.json"
+        ]
+      },
+      "path": "~/Pies"
+    },
+    {
+      "name": "PumpkinSliceRecipe",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pumpkin_slice_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/pumpkin_slice_recipe.json"
+        ]
+      },
+      "path": "~/Pies"
+    },
+    {
+      "name": "DoughRecipe",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dough_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/dough_recipe.json"
+        ]
+      },
+      "path": "~/Pies"
+    },
+    {
+      "name": "CocoaDust",
+      "type": "item",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cocoa_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/item/CocoaDustItem.java",
+          "src/main/resources/assets/assortedcuisine/models/item/cocoa_dust.json"
+        ]
+      },
+      "path": "~/Chocolate"
+    },
+    {
+      "name": "CocoaDustRecipe",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cocoa_dust_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/cocoa_dust_recipe.json"
+        ]
+      },
+      "path": "~/Chocolate"
+    },
+    {
+      "name": "ChocolateMilk",
+      "type": "item",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_milk",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/assortedcuisine/models/item/chocolate_milk.json",
+          "src/main/java/net/juniorwmg/assortedcuisine/item/ChocolateMilkItem.java"
+        ]
+      },
+      "path": "~/Chocolate"
+    },
+    {
+      "name": "HotChocolateMilk",
+      "type": "item",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hot_chocolate_milk",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/assortedcuisine/models/item/hot_chocolate_milk.json",
+          "src/main/java/net/juniorwmg/assortedcuisine/item/HotChocolateMilkItem.java"
+        ]
+      },
+      "path": "~/Chocolate"
+    },
+    {
+      "name": "HotChocolateMilkRecipe",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hot_chocolate_milk_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/hot_chocolate_milk_recipe.json"
+        ]
+      },
+      "path": "~/Chocolate"
+    },
+    {
+      "name": "ChocolateMilkRecipe",
+      "type": "recipe",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_milk_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/chocolate_milk_recipe.json"
+        ]
+      },
+      "path": "~/Chocolate"
+    },
+    {
+      "name": "ChocolateBalls",
+      "type": "item",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_balls",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/assortedcuisine/models/item/chocolate_balls.json",
+          "src/main/java/net/juniorwmg/assortedcuisine/item/ChocolateBallsItem.java"
+        ]
+      },
+      "path": "~/Chocolate"
+    },
+    {
+      "name": "ChocolateBallsRecipe",
+      "type": "recipe",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_balls_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/chocolate_balls_recipe.json"
+        ]
+      },
+      "path": "~/Chocolate"
+    },
+    {
+      "name": "PiePan",
+      "type": "item",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pie_pan",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/assortedcuisine/models/item/pie_pan.json",
+          "src/main/java/net/juniorwmg/assortedcuisine/item/PiePanItem.java"
+        ]
+      },
+      "path": "~/Pies"
+    },
+    {
+      "name": "RawApplePie",
+      "type": "item",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_apple_pie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/item/RawApplePieItem.java",
+          "src/main/resources/assets/assortedcuisine/models/item/raw_apple_pie.json"
+        ]
+      },
+      "path": "~/Pies"
+    },
+    {
+      "name": "RawChocolatePie",
+      "type": "item",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_chocolate_pie",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/assortedcuisine/models/item/raw_chocolate_pie.json",
+          "src/main/java/net/juniorwmg/assortedcuisine/item/RawChocolatePieItem.java"
+        ]
+      },
+      "path": "~/Pies"
+    },
+    {
+      "name": "RawEmptyPie",
+      "type": "item",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_empty_pie",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/assortedcuisine/models/item/raw_empty_pie.json",
+          "src/main/java/net/juniorwmg/assortedcuisine/item/RawEmptyPieItem.java"
+        ]
+      },
+      "path": "~/Pies"
+    },
+    {
+      "name": "RawMelonPie",
+      "type": "item",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_melon_pie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/item/RawMelonPieItem.java",
+          "src/main/resources/assets/assortedcuisine/models/item/raw_melon_pie.json"
+        ]
+      },
+      "path": "~/Pies"
+    },
+    {
+      "name": "RawPorkPie",
+      "type": "item",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_pork_pie",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/assortedcuisine/models/item/raw_pork_pie.json",
+          "src/main/java/net/juniorwmg/assortedcuisine/item/RawPorkPieItem.java"
+        ]
+      },
+      "path": "~/Pies"
+    },
+    {
+      "name": "RawPumpkinPie",
+      "type": "item",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_pumpkin_pie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/item/RawPumpkinPieItem.java",
+          "src/main/resources/assets/assortedcuisine/models/item/raw_pumpkin_pie.json"
+        ]
+      },
+      "path": "~/Pies"
+    },
+    {
+      "name": "MrCheeseItem",
+      "type": "item",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mr_cheese_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/item/MrCheeseItemItem.java",
+          "src/main/resources/assets/assortedcuisine/models/item/mr_cheese_item.json"
+        ]
+      },
+      "path": "~/Dairy"
+    },
+    {
+      "name": "MrCheese",
+      "type": "achievement",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mr_cheese",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/advancements/mr_cheese.json"
+        ]
+      },
+      "path": "~/Dairy"
+    },
+    {
+      "name": "MrCheeseCheck",
+      "type": "procedure",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mr_cheese_check",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/procedures/MrCheeseCheckProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Dairy"
+    },
+    {
+      "name": "ButterDebugCheeseMessage",
+      "type": "gamerule",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "butter_debug_cheese_message",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      },
+      "path": "~/Dairy"
+    },
+    {
+      "name": "MrCheeseSetCommandFunc",
+      "type": "procedure",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mr_cheese_set_command_func",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/procedures/MrCheeseSetCommandFuncProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Dairy"
+    },
+    {
+      "name": "MrCheeseSetCommand",
+      "type": "command",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mr_cheese_set_command",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/command/MrCheeseSetCommandCommand.java"
+        ]
+      },
+      "path": "~/Dairy"
     }
   ],
-  "variable_elements": [],
-  "sound_elements": [],
+  "variable_elements": [
+    {
+      "name": "cheese_eaten",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "mrcheese",
+      "files": [
+        "mrcheese"
+      ],
+      "category": "master",
+      "subtitle": "My name Mr. Cheese!"
+    }
+  ],
   "language_map": {
     "en_us": {
       "gamerule.butterDebugTickMessage.description": "Sends a chat message when an active butter churn or cheese maker ticks.",
       "item.assortedcuisine.sparkling_water_bottle": "Bottle of Sparkling Water",
-      "item.assortedcuisine.super_sugar": "Super Sugar",
-      "item.assortedcuisine.knife": "Knife",
+      "item.assortedcuisine.pumpkin_slice": "Pumpkin Slice",
       "item.assortedcuisine.cheese_burger": "Cheese Burger",
       "item_group.assortedcuisine.assorted_cuisine": "Assorted Cuisine",
-      "item.assortedcuisine.diamond_soda": "Diamond Soda",
       "item.assortedcuisine.root_soda": "Root Beer",
       "item.assortedcuisine.whisk": "Whisk",
       "item.assortedcuisine.slurm_soda": "Slurm",
-      "gamerule.butterDebugTickMessage": "[Debug] Notify on dairy tick",
       "item.assortedcuisine.bread_slice": "Bread Slice",
+      "item.assortedcuisine.hot_chocolate_milk": "Hot Chocolate Milk",
       "item.assortedcuisine.cocoa_soda": "Cocoa Drink",
       "item.assortedcuisine.golden_apple_soda": "Golden Apple Soda",
-      "item.assortedcuisine.hot_cheese_sandwhich": "Hot Cheese Sandwhich",
-      "item.assortedcuisine.unfinished_scrambled_eggs": "Bowl of Butter and Eggs",
+      "subtitles.mrcheese": "My name Mr. Cheese!",
       "item.assortedcuisine.bandage": "Bandage",
       "block.assortedcuisine.cheese_maker_2": "Cheese Maker",
       "block.assortedcuisine.cheese_maker_3": "Cheese Maker",
       "item.assortedcuisine.apple_soda": "Apple Soda",
       "item.assortedcuisine.carbon_dioxide_cylinder": "Empty Co² Cylinder",
+      "item.assortedcuisine.sugar_sweets": "Sugar Sweets",
+      "item.assortedcuisine.spiked_pumpkin_soda": "Spiked Pumpkin Soda",
+      "item.assortedcuisine.chocolate_milk": "Chocolate Milk",
+      "item.assortedcuisine.super_health_pack": "Super Health Pack",
+      "item.assortedcuisine.butter": "Butter",
+      "block.assortedcuisine.butter_churn": "Butter Churn",
+      "block.assortedcuisine.cheese_block": "Cheese Block",
+      "advancements.mr_cheese.title": "Mr. Cheese",
+      "item.assortedcuisine.shroom_soda": "Mushroom Soda",
+      "item.assortedcuisine.raw_pork_pie": "Raw Pork Pie",
+      "death.attack.cuisine.spikedpumpkin": "A player drank to much spiked soda",
+      "item.assortedcuisine.knife": "Knife",
+      "item.assortedcuisine.super_sugar": "Super Sugar",
+      "item.assortedcuisine.raw_chocolate_pie": "Raw Chocolate Pie",
+      "item.assortedcuisine.diamond_soda": "Diamond Soda",
+      "gamerule.butterDebugTickMessage": "[Debug] Notify on dairy tick",
+      "item.assortedcuisine.raw_melon_pie": "Raw Melon Pie",
+      "item.assortedcuisine.hot_cheese_sandwhich": "Hot Cheese Sandwhich",
+      "gamerule.butterDebugCheeseMessage": "[Debug] Notify on cheese eaten (player-specific)",
+      "item.assortedcuisine.unfinished_scrambled_eggs": "Bowl of Butter and Eggs",
+      "item.assortedcuisine.raw_empty_pie": "Raw Empty Pie",
+      "item.assortedcuisine.cocoa_dust": "Cocoa Dust",
       "item.assortedcuisine.filled_carbon_dioxide_cylinder": "Filled Co² Cylinder",
       "item.assortedcuisine.raw_scrambled_eggs": "Raw Scrambled Eggs",
       "item.assortedcuisine.scrambled_eggs": "Scrambled Eggs",
+      "item.assortedcuisine.dough": "Dough",
+      "item.assortedcuisine.chocolate_balls": "Chocolate Ball",
       "block.assortedcuisine.cheese_maker": "Cheese Maker",
-      "item.assortedcuisine.sugar_sweets": "Sugar Sweets",
+      "item.assortedcuisine.pie_pan": "Pie Pan",
       "item.assortedcuisine.health_pack": "Health Pack",
-      "item.assortedcuisine.spiked_pumpkin_soda": "Spiked Pumpkin Soda",
-      "item.assortedcuisine.super_health_pack": "Super Health Pack",
-      "item.assortedcuisine.butter": "Butter",
+      "item.assortedcuisine.raw_pumpkin_pie": "Raw Cream Pumpkin Pie",
       "item.assortedcuisine.cream_pumpkin_soda": "Cream Pumpkin Soda",
       "item.assortedcuisine.super_sugar_sweets": "Super Sugar Sweets",
       "item.assortedcuisine.pumpkin_soda": "Pumpkin Soda",
-      "block.assortedcuisine.butter_churn": "Butter Churn",
-      "block.assortedcuisine.cheese_block": "Cheese Block",
-      "item.assortedcuisine.shroom_soda": "Mushroom Soda",
+      "item.assortedcuisine.raw_apple_pie": "Raw Apple Pie",
       "item.assortedcuisine.dragon_fruit": "Dragon Fruit",
-      "death.attack.cuisine.spikedpumpkin": "A player drank to much spiked soda",
-      "item.assortedcuisine.cheese": "Cheese"
+      "item.assortedcuisine.cheese": "Cheese",
+      "advancements.mr_cheese.descr": "Eat a whole double-chest of cheese. My name Mr. Cheese!",
+      "gamerule.butterDebugCheeseMessage.description": "Sends a chat message containing your cheese-counter whenever you eat cheese."
     }
   },
   "foldersRoot": {
@@ -1553,6 +1986,22 @@
       {
         "name": "Food",
         "children": []
+      },
+      {
+        "name": "Pies",
+        "children": []
+      },
+      {
+        "name": "Chocolate",
+        "children": []
+      },
+      {
+        "name": "Candy",
+        "children": []
+      },
+      {
+        "name": "Config",
+        "children": []
       }
     ]
   },
@@ -1575,5 +2024,5 @@
     "modElementsPackage": "net.juniorwmg.assortedcuisine",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300224119
+  "mcreatorVersion": 202300326610
 }

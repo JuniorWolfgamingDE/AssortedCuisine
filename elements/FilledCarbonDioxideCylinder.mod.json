@@ -5,6 +5,8 @@
     "renderType": 0,
     "texture": "co2_1_filled",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Filled Co² Cylinder",
     "rarity": "COMMON",
     "creativeTab": {

@@ -5,6 +5,8 @@
     "renderType": 0,
     "texture": "applesoda",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Apple Soda",
     "rarity": "COMMON",
     "creativeTab": {

@@ -51,6 +51,19 @@ public class AssortedcuisineModTabs {
 					tabData.accept(AssortedcuisineModItems.BREAD_SLICE.get());
 					tabData.accept(AssortedcuisineModItems.HOT_CHEESE_SANDWHICH.get());
 					tabData.accept(AssortedcuisineModItems.CHEESE_BURGER.get());
+					tabData.accept(AssortedcuisineModItems.PUMPKIN_SLICE.get());
+					tabData.accept(AssortedcuisineModItems.DOUGH.get());
+					tabData.accept(AssortedcuisineModItems.COCOA_DUST.get());
+					tabData.accept(AssortedcuisineModItems.CHOCOLATE_MILK.get());
+					tabData.accept(AssortedcuisineModItems.HOT_CHOCOLATE_MILK.get());
+					tabData.accept(AssortedcuisineModItems.CHOCOLATE_BALLS.get());
+					tabData.accept(AssortedcuisineModItems.PIE_PAN.get());
+					tabData.accept(AssortedcuisineModItems.RAW_APPLE_PIE.get());
+					tabData.accept(AssortedcuisineModItems.RAW_CHOCOLATE_PIE.get());
+					tabData.accept(AssortedcuisineModItems.RAW_EMPTY_PIE.get());
+					tabData.accept(AssortedcuisineModItems.RAW_MELON_PIE.get());
+					tabData.accept(AssortedcuisineModItems.RAW_PORK_PIE.get());
+					tabData.accept(AssortedcuisineModItems.RAW_PUMPKIN_PIE.get());
 				})
 
 		);

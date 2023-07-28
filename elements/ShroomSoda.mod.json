@@ -5,6 +5,8 @@
     "renderType": 0,
     "texture": "mushroomsoda",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Mushroom Soda",
     "rarity": "COMMON",
     "creativeTab": {

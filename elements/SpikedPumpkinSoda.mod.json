@@ -5,6 +5,8 @@
     "renderType": 0,
     "texture": "spikedpumpkinsoda",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Spiked Pumpkin Soda",
     "rarity": "COMMON",
     "creativeTab": {
