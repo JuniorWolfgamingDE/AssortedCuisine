@@ -3,7 +3,7 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 8,
+    "recipeRetstackSize": 2,
     "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -12,16 +12,16 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "CUSTOM:SuperSugar"
+        "value": "TAG:assortedtools:buckets/milk"
       },
       {
-        "value": "Items.PAPER"
+        "value": "Items.WHEAT"
       },
       {
-        "value": ""
+        "value": "Items.WHEAT"
       },
       {
-        "value": ""
+        "value": "Items.EGG"
       },
       {
         "value": ""
@@ -40,9 +40,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:SuperSugarSweets"
+      "value": "CUSTOM:Dough"
     },
-    "name": "super_sugar_sweets_recipe",
+    "name": "dough_recipe_assorted_compat",
     "namespace": "mod"
   }
 }

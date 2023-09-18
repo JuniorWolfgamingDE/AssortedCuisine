@@ -1,10 +1,10 @@
 {
-  "_fv": 43,
+  "_fv": 47,
   "_type": "tab",
   "definition": {
     "name": "Assorted Cuisine",
     "icon": {
-      "value": "CUSTOM:SlurmSoda"
+      "value": "CUSTOM:CocoaDust"
     },
     "showSearch": false
   }

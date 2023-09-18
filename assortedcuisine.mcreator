@@ -1879,6 +1879,34 @@
         ]
       },
       "path": "~/Dairy"
+    },
+    {
+      "name": "CreamPumpkinSodaRecipeAssortedCompat",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cream_pumpkin_soda_recipe_assorted_compat",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/cream_pumpkin_soda_recipe_assorted_compat.json"
+        ]
+      },
+      "path": "~/Soda"
+    },
+    {
+      "name": "DoughRecipeAssortedCompat",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dough_recipe_assorted_compat",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/dough_recipe_assorted_compat.json"
+        ]
+      },
+      "path": "~/Pies"
     }
   ],
   "variable_elements": [
@@ -1913,6 +1941,7 @@
       "item.assortedcuisine.hot_chocolate_milk": "Hot Chocolate Milk",
       "item.assortedcuisine.cocoa_soda": "Cocoa Drink",
       "item.assortedcuisine.golden_apple_soda": "Golden Apple Soda",
+      "item.assortedcuisine.mr_cheese_item": "MrCheeseItem",
       "subtitles.mrcheese": "My name Mr. Cheese!",
       "item.assortedcuisine.bandage": "Bandage",
       "block.assortedcuisine.cheese_maker_2": "Cheese Maker",
@@ -2024,5 +2053,5 @@
     "modElementsPackage": "net.juniorwmg.assortedcuisine",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300326610
+  "mcreatorVersion": 202300336712
 }

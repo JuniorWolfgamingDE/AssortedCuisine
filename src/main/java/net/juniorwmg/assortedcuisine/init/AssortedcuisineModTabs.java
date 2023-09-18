@@ -17,7 +17,7 @@ public class AssortedcuisineModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsModded(CreativeModeTabEvent.Register event) {
 		event.registerCreativeModeTab(new ResourceLocation("assortedcuisine", "assorted_cuisine"),
-				builder -> builder.title(Component.translatable("item_group.assortedcuisine.assorted_cuisine")).icon(() -> new ItemStack(AssortedcuisineModItems.SLURM_SODA.get())).displayItems((parameters, tabData) -> {
+				builder -> builder.title(Component.translatable("item_group.assortedcuisine.assorted_cuisine")).icon(() -> new ItemStack(AssortedcuisineModItems.COCOA_DUST.get())).displayItems((parameters, tabData) -> {
 					tabData.accept(AssortedcuisineModItems.DRAGON_FRUIT.get());
 					tabData.accept(AssortedcuisineModItems.APPLE_SODA.get());
 					tabData.accept(AssortedcuisineModItems.GOLDEN_APPLE_SODA.get());

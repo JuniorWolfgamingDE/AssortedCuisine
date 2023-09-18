@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "assortedtools:buckets/milk"
+    },
+    {
+      "item": "assortedcuisine:pumpkin_soda"
+    }
+  ],
+  "result": {
+    "item": "assortedcuisine:cream_pumpkin_soda",
+    "count": 1
+  }
+}

@@ -3,7 +3,7 @@
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
-    "recipeRetstackSize": 8,
+    "recipeRetstackSize": 1,
     "group": "",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
@@ -12,16 +12,16 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "CUSTOM:SuperSugar"
-      },
-      {
-        "value": "Items.PAPER"
+        "value": "TAG:assortedtools:buckets/milk"
       },
       {
         "value": ""
       },
       {
         "value": ""
+      },
+      {
+        "value": "CUSTOM:PumpkinSoda"
       },
       {
         "value": ""
@@ -40,9 +40,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:SuperSugarSweets"
+      "value": "CUSTOM:CreamPumpkinSoda"
     },
-    "name": "super_sugar_sweets_recipe",
+    "name": "cream_pumpkin_soda_recipe_assorted_compat",
     "namespace": "mod"
   }
 }
