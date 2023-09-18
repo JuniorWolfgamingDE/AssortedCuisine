@@ -110,7 +110,7 @@ public class ButterChurnRightClickedProcedure {
 						}
 					}.getValue(world, BlockPos.containing(x, y, z), "cuisine_milktimer")) + "/4.0")), true);
 			}
-		} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).is(ItemTags.create(new ResourceLocation("assortedtools:buckets/milk")))) {
+		} else if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).is(ItemTags.create(new ResourceLocation("forge:buckets/milk")))) {
 			if (new Object() {
 				public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 					BlockEntity blockEntity = world.getBlockEntity(pos);
@@ -130,12 +130,12 @@ public class ButterChurnRightClickedProcedure {
 						return false;
 					}
 				}.checkGamemode(entity))) {
-					if (entity instanceof LivingEntity _entity) {
-						ItemStack _setstack = new ItemStack(Items.BUCKET);
-						_setstack.setCount(1);
-						_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack);
-						if (_entity instanceof Player _player)
-							_player.getInventory().setChanged();
+					{
+						ItemStack _ist = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY);
+						if (_ist.hurt(1, RandomSource.create(), null)) {
+							_ist.shrink(1);
+							_ist.setDamageValue(0);
+						}
 					}
 				}
 				if (!world.isClientSide()) {

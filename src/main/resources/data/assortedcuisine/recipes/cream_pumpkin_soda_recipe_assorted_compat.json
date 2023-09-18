@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     {
-      "tag": "assortedtools:buckets/milk"
+      "tag": "forge:buckets/milk"
     },
     {
       "item": "assortedcuisine:pumpkin_soda"

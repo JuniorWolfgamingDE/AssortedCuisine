@@ -12,22 +12,22 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
+        "value": "CUSTOM:CocoaDust"
+      },
+      {
+        "value": "CUSTOM:CocoaDust"
+      },
+      {
+        "value": "CUSTOM:CocoaDust"
+      },
+      {
+        "value": "Items.SUGAR"
+      },
+      {
         "value": "TAG:forge:buckets/milk"
       },
       {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": "CUSTOM:PumpkinSoda"
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
+        "value": "Items.BOWL"
       },
       {
         "value": ""
@@ -40,9 +40,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:CreamPumpkinSoda"
+      "value": "CUSTOM:ChocolateMilk"
     },
-    "name": "cream_pumpkin_soda_recipe_assorted_compat",
+    "name": "chocolate_milk_recipe_assorted_compat",
     "namespace": "mod"
   }
 }

@@ -12,7 +12,7 @@
     "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": "TAG:assortedtools:buckets/milk"
+        "value": "TAG:forge:buckets/milk"
       },
       {
         "value": "Items.WHEAT"

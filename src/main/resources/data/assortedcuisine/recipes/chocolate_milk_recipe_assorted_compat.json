@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "assortedcuisine:cocoa_dust"
+    },
+    {
+      "item": "assortedcuisine:cocoa_dust"
+    },
+    {
+      "item": "assortedcuisine:cocoa_dust"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "forge:buckets/milk"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "assortedcuisine:chocolate_milk",
+    "count": 1
+  }
+}

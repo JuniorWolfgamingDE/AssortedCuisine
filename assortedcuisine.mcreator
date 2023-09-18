@@ -1907,6 +1907,20 @@
         ]
       },
       "path": "~/Pies"
+    },
+    {
+      "name": "ChocolateMilkRecipeAssortedCompat",
+      "type": "recipe",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_milk_recipe_assorted_compat",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/chocolate_milk_recipe_assorted_compat.json"
+        ]
+      },
+      "path": "~/Chocolate"
     }
   ],
   "variable_elements": [
