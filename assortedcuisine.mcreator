@@ -2055,7 +2055,7 @@
     "description": "Adds the missing cuisine features from the old Grim mod collection.",
     "author": "junior_Feuerwolf / JuniorWMG",
     "websiteURL": "https://lolcatz.de/assorted/cuisine",
-    "license": "Apache License version 2.0",
+    "license": "GNU General Public License version 3 (GPLv3)",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],

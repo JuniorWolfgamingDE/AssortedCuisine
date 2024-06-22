@@ -1,6 +1,6 @@
 modLoader="javafml"
 loaderVersion="[47,)"
-license="Apache License version 2.0"
+license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
 modId="assortedcuisine"
