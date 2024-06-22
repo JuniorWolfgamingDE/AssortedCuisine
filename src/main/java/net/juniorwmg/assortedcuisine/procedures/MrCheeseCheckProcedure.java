@@ -31,7 +31,7 @@ public class MrCheeseCheckProcedure {
 	@SubscribeEvent
 	public static void onUseItemFinish(LivingEntityUseItemEvent.Finish event) {
 		if (event != null && event.getEntity() != null) {
-			execute(event, event.getEntity().level, event.getEntity().getX(), event.getEntity().getY(), event.getEntity().getZ(), event.getEntity(), event.getItem());
+			execute(event, event.getEntity().level(), event.getEntity().getX(), event.getEntity().getY(), event.getEntity().getZ(), event.getEntity(), event.getItem());
 		}
 	}
 
@@ -51,7 +51,7 @@ public class MrCheeseCheckProcedure {
 				});
 			}
 			if (world.getLevelData().getGameRules().getBoolean(AssortedcuisineModGameRules.BUTTER_DEBUG_CHEESE_MESSAGE) == true) {
-				if (entity instanceof Player _player && !_player.level.isClientSide())
+				if (entity instanceof Player _player && !_player.level().isClientSide())
 					_player.displayClientMessage(
 							Component.literal(("\u00A78\u00A7oCheese-counter: " + (entity.getCapability(AssortedcuisineModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AssortedcuisineModVariables.PlayerVariables())).cheese_eaten)), false);
 			}
@@ -64,7 +64,7 @@ public class MrCheeseCheckProcedure {
 							_player.getAdvancements().award(_adv, criteria);
 					}
 				}
-				if (!(entity instanceof ServerPlayer _plr5 && _plr5.level instanceof ServerLevel
+				if (!(entity instanceof ServerPlayer _plr5 && _plr5.level() instanceof ServerLevel
 						&& _plr5.getAdvancements().getOrStartProgress(_plr5.server.getAdvancements().getAdvancement(new ResourceLocation("assortedcuisine:mr_cheese"))).isDone())) {
 					if (world instanceof Level _level) {
 						if (!_level.isClientSide()) {

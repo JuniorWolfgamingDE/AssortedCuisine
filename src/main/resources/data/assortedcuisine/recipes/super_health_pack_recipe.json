@@ -2,25 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    " 1 ",
-    "345",
-    " 7 "
+    " a ",
+    "aba",
+    " a "
   ],
   "key": {
-    "1": {
+    "a": {
       "tag": "minecraft:wool"
     },
-    "3": {
-      "tag": "minecraft:wool"
-    },
-    "4": {
+    "b": {
       "item": "assortedcuisine:super_sugar"
-    },
-    "5": {
-      "tag": "minecraft:wool"
-    },
-    "7": {
-      "tag": "minecraft:wool"
     }
   },
   "result": {

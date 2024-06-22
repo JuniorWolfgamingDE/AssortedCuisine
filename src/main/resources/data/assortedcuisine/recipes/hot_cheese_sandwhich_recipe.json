@@ -2,25 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    " 1 ",
-    "345",
-    " 7 "
+    " a ",
+    "bbb",
+    " a "
   ],
   "key": {
-    "1": {
+    "a": {
       "item": "assortedcuisine:bread_slice"
     },
-    "3": {
+    "b": {
       "item": "assortedcuisine:cheese"
-    },
-    "4": {
-      "item": "assortedcuisine:cheese"
-    },
-    "5": {
-      "item": "assortedcuisine:cheese"
-    },
-    "7": {
-      "item": "assortedcuisine:bread_slice"
     }
   },
   "result": {

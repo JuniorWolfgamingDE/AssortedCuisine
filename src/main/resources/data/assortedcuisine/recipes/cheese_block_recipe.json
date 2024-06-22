@@ -2,36 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aaa",
+    "aaa",
+    "aaa"
   ],
   "key": {
-    "0": {
-      "item": "assortedcuisine:cheese"
-    },
-    "1": {
-      "item": "assortedcuisine:cheese"
-    },
-    "2": {
-      "item": "assortedcuisine:cheese"
-    },
-    "3": {
-      "item": "assortedcuisine:cheese"
-    },
-    "4": {
-      "item": "assortedcuisine:cheese"
-    },
-    "5": {
-      "item": "assortedcuisine:cheese"
-    },
-    "6": {
-      "item": "assortedcuisine:cheese"
-    },
-    "7": {
-      "item": "assortedcuisine:cheese"
-    },
-    "8": {
+    "a": {
       "item": "assortedcuisine:cheese"
     }
   },

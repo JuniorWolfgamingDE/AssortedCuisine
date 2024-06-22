@@ -3,8 +3,8 @@ package net.juniorwmg.assortedcuisine.block;
 
 import net.minecraft.world.phys.HitResult;
 import net.minecraft.world.phys.BlockHitResult;
-import net.minecraft.world.level.storage.loot.LootContext;
-import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.storage.loot.LootParams;
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -36,7 +36,7 @@ import java.util.Collections;
 
 public class CheeseMaker2Block extends Block implements EntityBlock {
 	public CheeseMaker2Block() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.GRAVEL).strength(1f, 10f).requiresCorrectToolForDrops().randomTicks());
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.GRAVEL).strength(1f, 10f).requiresCorrectToolForDrops().randomTicks());
 	}
 
 	@Override
@@ -63,7 +63,7 @@ public class CheeseMaker2Block extends Block implements EntityBlock {
 	}
 
 	@Override
-	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;

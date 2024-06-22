@@ -1,20 +1,20 @@
 modLoader="javafml"
-loaderVersion="[45,)"
-license="GNU General Public License version 3 (GPLv3)"
+loaderVersion="[47,)"
+license="Apache License version 2.0"
 
 [[mods]]
 modId="assortedcuisine"
 version="1.0.0"
 displayName="Assorted Cuisine"
-credits="Grim3212 - he created the Grim Pack and its successor: the Assorted mods."
 displayURL="https://lolcatz.de/assorted/cuisine"
+credits="Grim3212 - he created the Grim Pack and its successor: the Assorted mods."
 authors="junior_Feuerwolf / JuniorWMG"
 description="Adds the missing cuisine features from the old Grim mod collection."
 
 [[dependencies.assortedcuisine]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.19.4]"
+    versionRange="[1.20.1]"
     ordering="NONE"
     side="BOTH"
 

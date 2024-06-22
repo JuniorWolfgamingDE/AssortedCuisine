@@ -2,24 +2,18 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "0  ",
-    " 45",
-    " 78"
+    "a  ",
+    " bb",
+    " bc"
   ],
   "key": {
-    "0": {
+    "a": {
       "tag": "minecraft:planks"
     },
-    "4": {
+    "b": {
       "item": "minecraft:iron_ingot"
     },
-    "5": {
-      "item": "minecraft:iron_ingot"
-    },
-    "7": {
-      "item": "minecraft:iron_ingot"
-    },
-    "8": {
+    "c": {
       "item": "minecraft:iron_nugget"
     }
   },

@@ -13,7 +13,7 @@ public class SpikedPumpkinSodaFinishesProcedure {
 		if (entity == null)
 			return;
 		if (entity instanceof LivingEntity _entity)
-			_entity.hurt(new DamageSource(_entity.level.registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)) {
+			_entity.hurt(new DamageSource(_entity.level().registryAccess().registryOrThrow(Registries.DAMAGE_TYPE).getHolderOrThrow(DamageTypes.GENERIC)) {
 				@Override
 				public Component getLocalizedDeathMessage(LivingEntity _msgEntity) {
 					String _translatekey = "death.attack." + "cuisine.spikedpumpkin";

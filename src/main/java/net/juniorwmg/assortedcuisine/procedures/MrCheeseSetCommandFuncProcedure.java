@@ -42,7 +42,7 @@ public class MrCheeseSetCommandFuncProcedure {
 				}.getEntity()));
 			});
 		}
-		if (entity instanceof Player _player && !_player.level.isClientSide())
+		if (entity instanceof Player _player && !_player.level().isClientSide())
 			_player.displayClientMessage(Component.literal(("Set cheese-counter of " + (new Object() {
 				public Entity getEntity() {
 					try {

@@ -29,6 +29,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.juniorwmg.assortedcuisine.init.AssortedcuisineModTabs;
 import net.juniorwmg.assortedcuisine.init.AssortedcuisineModSounds;
 import net.juniorwmg.assortedcuisine.init.AssortedcuisineModItems;
 import net.juniorwmg.assortedcuisine.init.AssortedcuisineModBlocks;
@@ -53,9 +54,10 @@ public class AssortedcuisineMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		AssortedcuisineModSounds.REGISTRY.register(bus);
 		AssortedcuisineModBlocks.REGISTRY.register(bus);
+		AssortedcuisineModBlockEntities.REGISTRY.register(bus);
 		AssortedcuisineModItems.REGISTRY.register(bus);
 
-		AssortedcuisineModBlockEntities.REGISTRY.register(bus);
+		AssortedcuisineModTabs.REGISTRY.register(bus);
 
 	}
 
