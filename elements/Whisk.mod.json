@@ -4,7 +4,7 @@
   "definition": {
     "renderType": 0,
     "texture": "whisk",
-    "customModelName": "Normal",
+    "customModelName": "Tool",
     "customProperties": {},
     "states": [],
     "name": "Whisk",
@@ -29,11 +29,17 @@
     "specialInformation": {
       "fixedValue": []
     },
+    "glowCondition": {
+      "fixedValue": false
+    },
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "enableRanged": false,
     "shootConstantly": false,
+    "projectile": {
+      "value": "Arrow"
+    },
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,
