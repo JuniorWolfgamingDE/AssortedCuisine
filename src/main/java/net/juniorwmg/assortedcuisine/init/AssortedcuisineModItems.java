@@ -84,8 +84,6 @@ public class AssortedcuisineModItems {
 	public static final RegistryObject<Item> BUTTER_CHURN = block(AssortedcuisineModBlocks.BUTTER_CHURN);
 	public static final RegistryObject<Item> CHEESE_MAKER = block(AssortedcuisineModBlocks.CHEESE_MAKER);
 	public static final RegistryObject<Item> CHEESE_BLOCK = block(AssortedcuisineModBlocks.CHEESE_BLOCK);
-	public static final RegistryObject<Item> CHEESE_MAKER_2 = block(AssortedcuisineModBlocks.CHEESE_MAKER_2);
-	public static final RegistryObject<Item> CHEESE_MAKER_3 = block(AssortedcuisineModBlocks.CHEESE_MAKER_3);
 	public static final RegistryObject<Item> KNIFE = REGISTRY.register("knife", () -> new KnifeItem());
 	public static final RegistryObject<Item> CHEESE = REGISTRY.register("cheese", () -> new CheeseItem());
 	public static final RegistryObject<Item> WHISK = REGISTRY.register("whisk", () -> new WhiskItem());

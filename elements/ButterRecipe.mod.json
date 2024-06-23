@@ -1,0 +1,16 @@
+{
+  "_fv": 57,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "churning",
+    "result": {
+      "value": "CUSTOM:Butter"
+    },
+    "count": 3,
+    "ingredients": [
+      {
+        "value": "TAG:forge:buckets/milk"
+      }
+    ]
+  }
+}

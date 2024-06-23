@@ -1,0 +1,14 @@
+{
+  "_fv": 57,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      {
+        "value": "CUSTOM:HealthPack"
+      }
+    ],
+    "information": [
+      "Regenerates 5 health on use."
+    ]
+  }
+}

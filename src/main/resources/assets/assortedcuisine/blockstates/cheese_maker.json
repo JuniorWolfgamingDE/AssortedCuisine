@@ -1,7 +1,13 @@
 {
   "variants": {
-    "": {
+    "blockstate=0": {
       "model": "assortedcuisine:block/cheese_maker"
+    },
+    "blockstate=1": {
+      "model": "assortedcuisine:block/cheese_maker_blockstates_blockstate_0"
+    },
+    "blockstate=2": {
+      "model": "assortedcuisine:block/cheese_maker_blockstates_blockstate_1"
     }
   }
 }

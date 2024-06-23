@@ -1,0 +1,14 @@
+{
+  "_fv": 57,
+  "_type": "jeiinformation",
+  "definition": {
+    "items": [
+      {
+        "value": "CUSTOM:SuperHealthPack"
+      }
+    ],
+    "information": [
+      "Regenerates 12 health on use."
+    ]
+  }
+}

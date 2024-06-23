@@ -1,0 +1,16 @@
+{
+  "_fv": 57,
+  "_type": "jeirecipe",
+  "definition": {
+    "category": "curdling",
+    "result": {
+      "value": "CUSTOM:CheeseBlock"
+    },
+    "count": 1,
+    "ingredients": [
+      {
+        "value": "TAG:forge:buckets/milk"
+      }
+    ]
+  }
+}

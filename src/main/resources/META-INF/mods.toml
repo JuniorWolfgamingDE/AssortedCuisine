@@ -20,4 +20,10 @@ description="Adds the missing cuisine features from the old Grim mod collection.
 
 
 
+[[dependencies.assortedcuisine]]
+    modId="jei"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 

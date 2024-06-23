@@ -1,0 +1,12 @@
+{
+  "type": "assortedcuisine:churning",
+  "ingredients": [
+    {
+      "tag": "forge:buckets/milk"
+    }
+  ],
+  "output": {
+    "item": "assortedcuisine:butter",
+    "count": 3
+  }
+}

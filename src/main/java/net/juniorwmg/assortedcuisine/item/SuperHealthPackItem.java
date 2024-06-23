@@ -40,6 +40,6 @@ public class SuperHealthPackItem extends Item {
 
 	@Override
 	public void releaseUsing(ItemStack itemstack, Level world, LivingEntity entity, int time) {
-		SuperHealthPackStoppedUsingProcedure.execute(entity);
+		SuperHealthPackStoppedUsingProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity, itemstack);
 	}
 }

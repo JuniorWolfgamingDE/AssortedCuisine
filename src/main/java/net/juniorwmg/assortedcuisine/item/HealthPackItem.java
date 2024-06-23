@@ -2,6 +2,7 @@
 package net.juniorwmg.assortedcuisine.item;
 
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
@@ -19,6 +20,11 @@ import java.util.List;
 public class HealthPackItem extends Item {
 	public HealthPackItem() {
 		super(new Item.Properties().stacksTo(4).rarity(Rarity.COMMON));
+	}
+
+	@Override
+	public UseAnim getUseAnimation(ItemStack itemstack) {
+		return UseAnim.BLOCK;
 	}
 
 	@Override
@@ -40,6 +46,6 @@ public class HealthPackItem extends Item {
 
 	@Override
 	public void releaseUsing(ItemStack itemstack, Level world, LivingEntity entity, int time) {
-		HealthPackStoppedUsingProcedure.execute(entity);
+		HealthPackStoppedUsingProcedure.execute(world, entity.getX(), entity.getY(), entity.getZ(), entity, itemstack);
 	}
 }

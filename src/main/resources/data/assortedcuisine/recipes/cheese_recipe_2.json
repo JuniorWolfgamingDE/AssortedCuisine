@@ -1,0 +1,12 @@
+{
+  "type": "assortedcuisine:curdling",
+  "ingredients": [
+    {
+      "tag": "forge:buckets/milk"
+    }
+  ],
+  "output": {
+    "item": "assortedcuisine:cheese_block",
+    "count": 1
+  }
+}
