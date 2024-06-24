@@ -2059,16 +2059,16 @@
   "language_map": {
     "en_us": {
       "gamerule.butterDebugTickMessage.description": "Sends a chat message when an active butter churn or cheese maker ticks.",
-      "item.assortedcuisine.pumpkin_slice": "Pumpkin Slice",
       "item.assortedcuisine.sparkling_water_bottle": "Bottle of Sparkling Water",
+      "item.assortedcuisine.pumpkin_slice": "Pumpkin Slice",
       "item.assortedcuisine.cheese_burger": "Cheese Burger",
       "item_group.assortedcuisine.assorted_cuisine": "Assorted Cuisine",
       "item.assortedcuisine.root_soda": "Root Beer",
       "item.assortedcuisine.whisk": "Whisk",
       "item.assortedcuisine.slurm_soda": "Slurm",
       "item.assortedcuisine.bread_slice": "Bread Slice",
-      "item.assortedcuisine.cocoa_soda": "Cocoa Drink",
       "item.assortedcuisine.hot_chocolate_milk": "Hot Chocolate Milk",
+      "item.assortedcuisine.cocoa_soda": "Cocoa Drink",
       "item.assortedcuisine.golden_apple_soda": "Golden Apple Soda",
       "item.assortedcuisine.mr_cheese_item": "MrCheeseItem",
       "subtitles.mrcheese": "My name Mr. Cheese!",
