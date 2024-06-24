@@ -2017,16 +2017,16 @@
   "language_map": {
     "en_us": {
       "gamerule.butterDebugTickMessage.description": "Sends a chat message when an active butter churn or cheese maker ticks.",
-      "item.assortedcuisine.sparkling_water_bottle": "Bottle of Sparkling Water",
       "item.assortedcuisine.pumpkin_slice": "Pumpkin Slice",
+      "item.assortedcuisine.sparkling_water_bottle": "Bottle of Sparkling Water",
       "item.assortedcuisine.cheese_burger": "Cheese Burger",
       "item_group.assortedcuisine.assorted_cuisine": "Assorted Cuisine",
       "item.assortedcuisine.root_soda": "Root Beer",
       "item.assortedcuisine.whisk": "Whisk",
       "item.assortedcuisine.slurm_soda": "Slurm",
       "item.assortedcuisine.bread_slice": "Bread Slice",
-      "item.assortedcuisine.hot_chocolate_milk": "Hot Chocolate Milk",
       "item.assortedcuisine.cocoa_soda": "Cocoa Drink",
+      "item.assortedcuisine.hot_chocolate_milk": "Hot Chocolate Milk",
       "item.assortedcuisine.golden_apple_soda": "Golden Apple Soda",
       "item.assortedcuisine.mr_cheese_item": "MrCheeseItem",
       "subtitles.mrcheese": "My name Mr. Cheese!",
@@ -2129,8 +2129,8 @@
   "workspaceSettings": {
     "modid": "assortedcuisine",
     "modName": "Assorted Cuisine",
-    "version": "1.0.0",
-    "description": "Adds the missing cuisine features from the old Grim mod collection.",
+    "version": "0.1.0",
+    "description": "Adds an random assortment of food items to your Minecraft world.",
     "author": "junior_Feuerwolf / JuniorWMG",
     "websiteURL": "https://lolcatz.de/assorted/cuisine",
     "license": "GNU General Public License version 3 (GPLv3)",
@@ -2143,7 +2143,7 @@
       "jei"
     ],
     "currentGenerator": "forge-1.20.1",
-    "credits": "Grim3212 - he created the Grim Pack and its successor: the Assorted mods.",
+    "credits": "Grim3212 - Developer of the Grim Pack \u0026 Assorted Mods",
     "modElementsPackage": "net.juniorwmg.assortedcuisine",
     "lockBaseModFiles": false
   },
