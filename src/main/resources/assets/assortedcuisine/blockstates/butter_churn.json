@@ -1,7 +1,10 @@
 {
   "variants": {
-    "": {
+    "blockstate=0": {
       "model": "assortedcuisine:block/butter_churn"
+    },
+    "blockstate=1": {
+      "model": "assortedcuisine:block/butter_churn_blockstates_blockstate_0"
     }
   }
 }

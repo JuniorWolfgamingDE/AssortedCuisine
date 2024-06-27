@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "blockstates",
+  "definition": {
+    "block": "ButterChurn",
+    "blockstateList": [
+      {
+        "texture": "butter_churn_top",
+        "textureTop": "butter_churn_top",
+        "textureLeft": "butter_churn_side_finished",
+        "textureFront": "butter_churn_side_finished",
+        "textureRight": "butter_churn_side_finished",
+        "textureBack": "butter_churn_side_finished",
+        "particleTexture": "",
+        "renderType": 0,
+        "customModelName": "Normal",
+        "luminance": 0,
+        "boundingBoxes": []
+      }
+    ]
+  }
+}

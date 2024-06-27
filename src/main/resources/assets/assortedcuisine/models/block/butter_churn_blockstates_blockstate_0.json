@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "assortedcuisine:block/butter_churn_top",
+    "up": "assortedcuisine:block/butter_churn_top",
+    "north": "assortedcuisine:block/butter_churn_side_finished",
+    "east": "assortedcuisine:block/butter_churn_side_finished",
+    "south": "assortedcuisine:block/butter_churn_side_finished",
+    "west": "assortedcuisine:block/butter_churn_side_finished",
+    "particle": "assortedcuisine:block/butter_churn_top"
+  },
+  "render_type": "solid"
+}
