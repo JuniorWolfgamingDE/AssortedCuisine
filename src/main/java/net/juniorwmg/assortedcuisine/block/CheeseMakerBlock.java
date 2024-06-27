@@ -4,6 +4,7 @@ package net.juniorwmg.assortedcuisine.block;
 import org.checkerframework.checker.units.qual.s;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
+import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.storage.loot.LootParams;
@@ -50,7 +51,7 @@ public class CheeseMakerBlock extends Block implements EntityBlock {
 					return 0;
 				return 0;
 			}
-		}.getLightLevel())).requiresCorrectToolForDrops().randomTicks());
+		}.getLightLevel())).requiresCorrectToolForDrops().noOcclusion().randomTicks().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override
@@ -59,8 +60,18 @@ public class CheeseMakerBlock extends Block implements EntityBlock {
 	}
 
 	@Override
+	public boolean propagatesSkylightDown(BlockState state, BlockGetter reader, BlockPos pos) {
+		return true;
+	}
+
+	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
-		return 15;
+		return 0;
+	}
+
+	@Override
+	public VoxelShape getVisualShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		return Shapes.empty();
 	}
 
 	@Override

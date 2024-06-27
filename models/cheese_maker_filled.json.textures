@@ -1,0 +1,20 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "cheesemakerside",
+        "1": "cheesemakertop",
+        "2": "cheese_block_raw"
+      },
+      "name": "default"
+    },
+    "finished": {
+      "map": {
+        "0": "cheesemakerside",
+        "1": "cheesemakertop",
+        "2": "cheese_block"
+      },
+      "name": "finished"
+    }
+  }
+}

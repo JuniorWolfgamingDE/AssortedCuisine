@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "cheesemakerside",
+        "1": "cheesemakertop"
+      },
+      "name": "default"
+    }
+  }
+}

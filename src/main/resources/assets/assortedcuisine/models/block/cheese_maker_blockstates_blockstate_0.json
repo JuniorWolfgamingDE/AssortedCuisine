@@ -1,13 +1,11 @@
 {
-  "parent": "block/cube",
+  "parent": "assortedcuisine:custom/cheese_maker_filled",
   "textures": {
-    "down": "assortedcuisine:block/cheesemakertop",
-    "up": "assortedcuisine:block/cheesemakertop_ready",
-    "north": "assortedcuisine:block/cheesemakerside",
-    "east": "assortedcuisine:block/cheesemakerside",
-    "south": "assortedcuisine:block/cheesemakerside",
-    "west": "assortedcuisine:block/cheesemakerside",
-    "particle": "assortedcuisine:block/cheesemakertop"
+    "all": "assortedcuisine:block/cheesemakertop",
+    "particle": "assortedcuisine:block/cheesemakertop",
+    "0": "assortedcuisine:block/cheesemakerside",
+    "1": "assortedcuisine:block/cheesemakertop",
+    "2": "assortedcuisine:block/cheese_block_raw"
   },
   "render_type": "solid"
 }
