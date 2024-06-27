@@ -2,15 +2,18 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    " a ",
     "aba",
-    " a "
+    "bcb",
+    "aba"
   ],
   "key": {
     "a": {
-      "tag": "minecraft:wool"
+      "item": "minecraft:iron_nugget"
     },
     "b": {
+      "item": "assortedcuisine:bandage"
+    },
+    "c": {
       "item": "assortedcuisine:super_sugar"
     }
   },

@@ -12,31 +12,31 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "Items.IRON_NUGGET"
       },
       {
-        "value": "Blocks.WOOL"
+        "value": "CUSTOM:Bandage"
       },
       {
-        "value": ""
+        "value": "Items.IRON_NUGGET"
       },
       {
-        "value": "Blocks.WOOL"
+        "value": "CUSTOM:Bandage"
       },
       {
         "value": "CUSTOM:SuperSugar"
       },
       {
-        "value": "Blocks.WOOL"
+        "value": "CUSTOM:Bandage"
       },
       {
-        "value": ""
+        "value": "Items.IRON_NUGGET"
       },
       {
-        "value": "Blocks.WOOL"
+        "value": "CUSTOM:Bandage"
       },
       {
-        "value": ""
+        "value": "Items.IRON_NUGGET"
       }
     ],
     "recipeReturnStack": {

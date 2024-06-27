@@ -56,16 +56,16 @@ public class MrCheeseCheckProcedure {
 							Component.literal(("\u00A78\u00A7oCheese-counter: " + (entity.getCapability(AssortedcuisineModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AssortedcuisineModVariables.PlayerVariables())).cheese_eaten)), false);
 			}
 			if ((entity.getCapability(AssortedcuisineModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new AssortedcuisineModVariables.PlayerVariables())).cheese_eaten >= 3456) {
-				if (entity instanceof ServerPlayer _player) {
-					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("assortedcuisine:mr_cheese"));
-					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
-					if (!_ap.isDone()) {
-						for (String criteria : _ap.getRemainingCriteria())
-							_player.getAdvancements().award(_adv, criteria);
+				if (!(entity instanceof ServerPlayer _plr4 && _plr4.level() instanceof ServerLevel
+						&& _plr4.getAdvancements().getOrStartProgress(_plr4.server.getAdvancements().getAdvancement(new ResourceLocation("assortedcuisine:mr_cheese"))).isDone())) {
+					if (entity instanceof ServerPlayer _player) {
+						Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("assortedcuisine:mr_cheese"));
+						AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+						if (!_ap.isDone()) {
+							for (String criteria : _ap.getRemainingCriteria())
+								_player.getAdvancements().award(_adv, criteria);
+						}
 					}
-				}
-				if (!(entity instanceof ServerPlayer _plr5 && _plr5.level() instanceof ServerLevel
-						&& _plr5.getAdvancements().getOrStartProgress(_plr5.server.getAdvancements().getAdvancement(new ResourceLocation("assortedcuisine:mr_cheese"))).isDone())) {
 					if (world instanceof Level _level) {
 						if (!_level.isClientSide()) {
 							_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("assortedcuisine:mrcheese")), SoundSource.MASTER, 1, 1);

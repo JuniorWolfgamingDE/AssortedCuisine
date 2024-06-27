@@ -19,7 +19,7 @@ import java.util.List;
 
 public class HealthPackItem extends Item {
 	public HealthPackItem() {
-		super(new Item.Properties().stacksTo(4).rarity(Rarity.COMMON));
+		super(new Item.Properties().stacksTo(3).rarity(Rarity.COMMON));
 	}
 
 	@Override
