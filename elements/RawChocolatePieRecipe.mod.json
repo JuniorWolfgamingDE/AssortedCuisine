@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "raw_pie",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Dough"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ChocolateBalls"
+      },
+      {
+        "value": "CUSTOM:ChocolateBalls"
+      },
+      {
+        "value": "CUSTOM:ChocolateBalls"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:RawEmptyPie"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RawChocolatePie"
+    },
+    "name": "raw_chocolate_pie_recipe",
+    "namespace": "mod"
+  }
+}
