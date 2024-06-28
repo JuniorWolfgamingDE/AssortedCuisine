@@ -4,7 +4,7 @@ license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
 modId="assortedcuisine"
-version="0.1.1"
+version="0.1.2"
 displayName="Assorted Cuisine"
 displayURL="https://lolcatz.de/assorted/cuisine"
 credits="Grim3212 - Developer of the Grim Pack & Assorted Mods"
@@ -27,7 +27,19 @@ description="Adds an random assortment of food items to your Minecraft world."
     ordering="NONE"
     side="BOTH"
 [[dependencies.assortedcuisine]]
+    modId="assortedtools"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.assortedcuisine]]
     modId="assorted-lib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.assortedcuisine]]
+    modId="assortedlib"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"
