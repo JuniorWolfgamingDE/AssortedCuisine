@@ -107,6 +107,7 @@ public class AssortedcuisineModItems {
 	public static final RegistryObject<Item> RAW_PORK_PIE = REGISTRY.register("raw_pork_pie", () -> new RawPorkPieItem());
 	public static final RegistryObject<Item> RAW_PUMPKIN_PIE = REGISTRY.register("raw_pumpkin_pie", () -> new RawPumpkinPieItem());
 	public static final RegistryObject<Item> MR_CHEESE_ITEM = REGISTRY.register("mr_cheese_item", () -> new MrCheeseItemItem());
+	public static final RegistryObject<Item> APPLE_PIE = block(AssortedcuisineModBlocks.APPLE_PIE);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

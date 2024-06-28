@@ -64,6 +64,7 @@ public class AssortedcuisineModTabs {
 				tabData.accept(AssortedcuisineModItems.RAW_MELON_PIE.get());
 				tabData.accept(AssortedcuisineModItems.RAW_PORK_PIE.get());
 				tabData.accept(AssortedcuisineModItems.RAW_PUMPKIN_PIE.get());
+				tabData.accept(AssortedcuisineModBlocks.APPLE_PIE.get().asItem());
 			})
 
 					.build());

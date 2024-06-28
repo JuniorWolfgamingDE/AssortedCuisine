@@ -1,0 +1,11 @@
+{
+  "parent": "assortedcuisine:custom/pie",
+  "textures": {
+    "all": "assortedcuisine:block/pie_bottom",
+    "particle": "assortedcuisine:block/pie_bottom",
+    "0": "assortedcuisine:block/apple_pie_top",
+    "1": "assortedcuisine:block/pie_side",
+    "2": "assortedcuisine:block/pie_bottom"
+  },
+  "render_type": "solid"
+}

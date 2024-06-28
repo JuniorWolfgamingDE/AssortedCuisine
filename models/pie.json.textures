@@ -1,0 +1,44 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "apple_pie_top",
+        "1": "pie_side",
+        "2": "pie_bottom"
+      },
+      "name": "default"
+    },
+    "chocolate": {
+      "map": {
+        "0": "chocolate_pie_top",
+        "1": "pie_side",
+        "2": "pie_bottom"
+      },
+      "name": "chocolate"
+    },
+    "melon": {
+      "map": {
+        "0": "melon_pie_top",
+        "1": "pie_side",
+        "2": "pie_bottom"
+      },
+      "name": "melon"
+    },
+    "pork": {
+      "map": {
+        "0": "pork_pie_top",
+        "1": "pie_side",
+        "2": "pie_bottom"
+      },
+      "name": "pork"
+    },
+    "pumpkin": {
+      "map": {
+        "0": "pumpkin_pie_top",
+        "1": "pie_side",
+        "2": "pie_bottom"
+      },
+      "name": "pumpkin"
+    }
+  }
+}
