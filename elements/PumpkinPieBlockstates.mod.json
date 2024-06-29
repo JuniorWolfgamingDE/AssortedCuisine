@@ -1,0 +1,147 @@
+{
+  "_fv": 57,
+  "_type": "blockstates",
+  "definition": {
+    "block": "PumpkinPie",
+    "blockstateList": [
+      {
+        "texture": "pumpkin_pie_top",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "pie_1:pumpkin",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 3.0,
+            "my": 0.0,
+            "mz": 1.0,
+            "Mx": 15.0,
+            "My": 8.0,
+            "Mz": 15.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "pumpkin_pie_top",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "pie_2:pumpkin",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 5.0,
+            "my": 0.0,
+            "mz": 1.0,
+            "Mx": 15.0,
+            "My": 8.0,
+            "Mz": 15.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "pumpkin_pie_top",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "pie_3:pumpkin",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 7.0,
+            "my": 0.0,
+            "mz": 1.0,
+            "Mx": 15.0,
+            "My": 8.0,
+            "Mz": 15.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "pumpkin_pie_top",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "pie_4:pumpkin",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 9.0,
+            "my": 0.0,
+            "mz": 1.0,
+            "Mx": 15.0,
+            "My": 8.0,
+            "Mz": 15.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "pumpkin_pie_top",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "pie_5:pumpkin",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 11.0,
+            "my": 0.0,
+            "mz": 1.0,
+            "Mx": 15.0,
+            "My": 8.0,
+            "Mz": 15.0,
+            "subtract": false
+          }
+        ]
+      },
+      {
+        "texture": "pumpkin_pie_top",
+        "textureTop": "",
+        "textureLeft": "",
+        "textureFront": "",
+        "textureRight": "",
+        "textureBack": "",
+        "particleTexture": "",
+        "renderType": 2,
+        "customModelName": "pie_6:pumpkin",
+        "luminance": 0,
+        "boundingBoxes": [
+          {
+            "mx": 13.0,
+            "my": 0.0,
+            "mz": 1.0,
+            "Mx": 15.0,
+            "My": 8.0,
+            "Mz": 15.0,
+            "subtract": false
+          }
+        ]
+      }
+    ]
+  }
+}

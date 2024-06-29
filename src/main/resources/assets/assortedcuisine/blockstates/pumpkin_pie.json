@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "blockstate=0": {
+      "model": "assortedcuisine:block/pumpkin_pie"
+    },
+    "blockstate=1": {
+      "model": "assortedcuisine:block/pumpkin_pie_blockstates_blockstate_0"
+    },
+    "blockstate=2": {
+      "model": "assortedcuisine:block/pumpkin_pie_blockstates_blockstate_1"
+    },
+    "blockstate=3": {
+      "model": "assortedcuisine:block/pumpkin_pie_blockstates_blockstate_2"
+    },
+    "blockstate=4": {
+      "model": "assortedcuisine:block/pumpkin_pie_blockstates_blockstate_3"
+    },
+    "blockstate=5": {
+      "model": "assortedcuisine:block/pumpkin_pie_blockstates_blockstate_4"
+    },
+    "blockstate=6": {
+      "model": "assortedcuisine:block/pumpkin_pie_blockstates_blockstate_5"
+    }
+  }
+}

@@ -2117,7 +2117,7 @@
           }
         ]
       },
-      "path": "~/Pies/Pie"
+      "path": "~/Pies"
     },
     {
       "name": "ApplePie",
@@ -2134,7 +2134,7 @@
           "src/main/resources/assets/assortedcuisine/models/item/apple_pie.json"
         ]
       },
-      "path": "~/Pies/Pie"
+      "path": "~/Pies/Finished Pie"
     },
     {
       "name": "ApplePieBlockstates",
@@ -2153,7 +2153,221 @@
           "src/main/resources/assets/assortedcuisine/models/block/apple_pie_blockstates_blockstate_3.json"
         ]
       },
-      "path": "~/Pies/Pie"
+      "path": "~/Pies/Finished Pie"
+    },
+    {
+      "name": "ApplePieRecipe",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_pie_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/apple_pie_recipe.json"
+        ]
+      },
+      "path": "~/Pies/Finished Pie"
+    },
+    {
+      "name": "ChocolatePie",
+      "type": "block",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_pie",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/assortedcuisine/models/block/chocolate_pie.json",
+          "src/main/java/net/juniorwmg/assortedcuisine/block/ChocolatePieBlock.java",
+          "src/main/resources/assets/assortedcuisine/blockstates/chocolate_pie.json",
+          "src/main/resources/assets/assortedcuisine/models/item/chocolate_pie.json"
+        ]
+      },
+      "path": "~/Pies/Finished Pie"
+    },
+    {
+      "name": "ChocolatePieBlockstates",
+      "type": "blockstates",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_pie_blockstates",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/assortedcuisine/models/block/chocolate_pie_blockstates_blockstate_0.json",
+          "src/main/resources/assets/assortedcuisine/models/block/chocolate_pie_blockstates_blockstate_3.json",
+          "src/main/resources/assets/assortedcuisine/models/block/chocolate_pie_blockstates_blockstate_4.json",
+          "src/main/resources/assets/assortedcuisine/models/block/chocolate_pie_blockstates_blockstate_2.json",
+          "src/main/resources/assets/assortedcuisine/models/block/chocolate_pie_blockstates_blockstate_5.json",
+          "src/main/resources/assets/assortedcuisine/models/block/chocolate_pie_blockstates_blockstate_1.json"
+        ]
+      },
+      "path": "~/Pies/Finished Pie"
+    },
+    {
+      "name": "ChocolatePieRecipe",
+      "type": "recipe",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_pie_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/chocolate_pie_recipe.json"
+        ]
+      },
+      "path": "~/Pies/Finished Pie"
+    },
+    {
+      "name": "MelonPie",
+      "type": "block",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melon_pie",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/block/MelonPieBlock.java",
+          "src/main/resources/assets/assortedcuisine/models/block/melon_pie.json",
+          "src/main/resources/assets/assortedcuisine/models/item/melon_pie.json",
+          "src/main/resources/assets/assortedcuisine/blockstates/melon_pie.json"
+        ]
+      },
+      "path": "~/Pies/Finished Pie"
+    },
+    {
+      "name": "MelonPieBlockstates",
+      "type": "blockstates",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melon_pie_blockstates",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/assortedcuisine/models/block/melon_pie_blockstates_blockstate_1.json",
+          "src/main/resources/assets/assortedcuisine/models/block/melon_pie_blockstates_blockstate_0.json",
+          "src/main/resources/assets/assortedcuisine/models/block/melon_pie_blockstates_blockstate_4.json",
+          "src/main/resources/assets/assortedcuisine/models/block/melon_pie_blockstates_blockstate_5.json",
+          "src/main/resources/assets/assortedcuisine/models/block/melon_pie_blockstates_blockstate_2.json",
+          "src/main/resources/assets/assortedcuisine/models/block/melon_pie_blockstates_blockstate_3.json"
+        ]
+      },
+      "path": "~/Pies/Finished Pie"
+    },
+    {
+      "name": "MelonPieRecipe",
+      "type": "recipe",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "melon_pie_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/melon_pie_recipe.json"
+        ]
+      },
+      "path": "~/Pies/Finished Pie"
+    },
+    {
+      "name": "PorkPie",
+      "type": "block",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pork_pie",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/assortedcuisine/models/item/pork_pie.json",
+          "src/main/java/net/juniorwmg/assortedcuisine/block/PorkPieBlock.java",
+          "src/main/resources/assets/assortedcuisine/blockstates/pork_pie.json",
+          "src/main/resources/assets/assortedcuisine/models/block/pork_pie.json"
+        ]
+      },
+      "path": "~/Pies/Finished Pie"
+    },
+    {
+      "name": "PorkPieBlockstates",
+      "type": "blockstates",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pork_pie_blockstates",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/assortedcuisine/models/block/pork_pie_blockstates_blockstate_1.json",
+          "src/main/resources/assets/assortedcuisine/models/block/pork_pie_blockstates_blockstate_5.json",
+          "src/main/resources/assets/assortedcuisine/models/block/pork_pie_blockstates_blockstate_2.json",
+          "src/main/resources/assets/assortedcuisine/models/block/pork_pie_blockstates_blockstate_3.json",
+          "src/main/resources/assets/assortedcuisine/models/block/pork_pie_blockstates_blockstate_0.json",
+          "src/main/resources/assets/assortedcuisine/models/block/pork_pie_blockstates_blockstate_4.json"
+        ]
+      },
+      "path": "~/Pies/Finished Pie"
+    },
+    {
+      "name": "PorkPieRecipe",
+      "type": "recipe",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pork_pie_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/pork_pie_recipe.json"
+        ]
+      },
+      "path": "~/Pies/Finished Pie"
+    },
+    {
+      "name": "PumpkinPie",
+      "type": "block",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pumpkin_pie",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/assortedcuisine/models/block/pumpkin_pie.json",
+          "src/main/resources/assets/assortedcuisine/blockstates/pumpkin_pie.json",
+          "src/main/java/net/juniorwmg/assortedcuisine/block/PumpkinPieBlock.java",
+          "src/main/resources/assets/assortedcuisine/models/item/pumpkin_pie.json"
+        ]
+      },
+      "path": "~/Pies/Finished Pie"
+    },
+    {
+      "name": "PumpkinPieBlockstates",
+      "type": "blockstates",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pumpkin_pie_blockstates",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/assortedcuisine/models/block/pumpkin_pie_blockstates_blockstate_1.json",
+          "src/main/resources/assets/assortedcuisine/models/block/pumpkin_pie_blockstates_blockstate_5.json",
+          "src/main/resources/assets/assortedcuisine/models/block/pumpkin_pie_blockstates_blockstate_2.json",
+          "src/main/resources/assets/assortedcuisine/models/block/pumpkin_pie_blockstates_blockstate_3.json",
+          "src/main/resources/assets/assortedcuisine/models/block/pumpkin_pie_blockstates_blockstate_4.json",
+          "src/main/resources/assets/assortedcuisine/models/block/pumpkin_pie_blockstates_blockstate_0.json"
+        ]
+      },
+      "path": "~/Pies/Finished Pie"
+    },
+    {
+      "name": "PumpkinPieRecipe",
+      "type": "recipe",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pumpkin_pie_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/pumpkin_pie_recipe.json"
+        ]
+      },
+      "path": "~/Pies/Finished Pie"
     }
   ],
   "variable_elements": [
@@ -2177,22 +2391,24 @@
   "language_map": {
     "en_us": {
       "gamerule.butterDebugTickMessage.description": "Sends a chat message when an active butter churn or cheese maker ticks.",
-      "item.assortedcuisine.pumpkin_slice": "Pumpkin Slice",
       "item.assortedcuisine.sparkling_water_bottle": "Bottle of Sparkling Water",
+      "item.assortedcuisine.pumpkin_slice": "Pumpkin Slice",
       "item.assortedcuisine.cheese_burger": "Cheese Burger",
       "item_group.assortedcuisine.assorted_cuisine": "Assorted Cuisine",
       "item.assortedcuisine.root_soda": "Root Beer",
       "item.assortedcuisine.whisk": "Whisk",
       "item.assortedcuisine.slurm_soda": "Slurm",
       "item.assortedcuisine.bread_slice": "Bread Slice",
-      "item.assortedcuisine.cocoa_soda": "Cocoa Drink",
       "item.assortedcuisine.hot_chocolate_milk": "Hot Chocolate Milk",
+      "item.assortedcuisine.cocoa_soda": "Cocoa Drink",
       "item.assortedcuisine.golden_apple_soda": "Golden Apple Soda",
       "item.assortedcuisine.mr_cheese_item": "MrCheeseItem",
       "subtitles.mrcheese": "My name Mr. Cheese!",
       "item.assortedcuisine.bandage": "Bandage",
       "item.assortedcuisine.apple_soda": "Apple Soda",
       "item.assortedcuisine.carbon_dioxide_cylinder": "Empty Co² Cylinder",
+      "block.assortedcuisine.melon_pie": "Melon Pie",
+      "block.assortedcuisine.chocolate_pie": "Chocolate Pie",
       "item.assortedcuisine.sugar_sweets": "Sugar Sweets",
       "item.assortedcuisine.spiked_pumpkin_soda": "Spiked Pumpkin Soda",
       "item.assortedcuisine.chocolate_milk": "Chocolate Milk",
@@ -2210,6 +2426,7 @@
       "item.assortedcuisine.super_sugar": "Super Sugar",
       "item.assortedcuisine.raw_chocolate_pie": "Raw Chocolate Pie",
       "item.assortedcuisine.diamond_soda": "Diamond Soda",
+      "block.assortedcuisine.pork_pie": "Pork Pie",
       "gamerule.butterDebugTickMessage": "[Debug] Notify on dairy tick",
       "item.assortedcuisine.raw_melon_pie": "Raw Melon Pie",
       "item.assortedcuisine.hot_cheese_sandwhich": "Cheese Sandwhich",
@@ -2234,7 +2451,8 @@
       "item.assortedcuisine.dragon_fruit": "Dragon Fruit",
       "item.assortedcuisine.cheese": "Cheese",
       "advancements.mr_cheese.descr": "Eat a whole double-chest of cheese. My name Mr. Cheese!",
-      "gamerule.butterDebugCheeseMessage.description": "Sends a chat message containing your cheese-counter whenever you eat cheese."
+      "gamerule.butterDebugCheeseMessage.description": "Sends a chat message containing your cheese-counter whenever you eat cheese.",
+      "block.assortedcuisine.pumpkin_pie": "Pumpkin Pie"
     }
   },
   "foldersRoot": {
@@ -2277,7 +2495,7 @@
             "children": []
           },
           {
-            "name": "Pie",
+            "name": "Finished Pie",
             "children": []
           }
         ]

@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "recipeRetstackSize": 1,
+    "group": "raw_pie_furnace",
+    "cookingBookCategory": "MISC",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:RawMelonPie"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:MelonPie"
+    },
+    "name": "melon_pie_recipe",
+    "namespace": "mod"
+  }
+}
