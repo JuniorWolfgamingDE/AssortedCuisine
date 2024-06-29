@@ -76,7 +76,13 @@ public class CheeseMakerBlock extends Block implements EntityBlock {
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-		return box(0, 0, 0, 16, 16, 16);
+		if (state.getValue(BLOCKSTATE) == 1) {
+			return Shapes.or(box(0, 0, 0, 16, 8, 16), box(0, 8, 0, 16, 16, 1), box(0, 8, 15, 16, 16, 16), box(0, 8, 1, 1, 16, 15), box(15, 8, 1, 16, 16, 15), box(1, 7, 1, 15, 15, 15));
+		}
+		if (state.getValue(BLOCKSTATE) == 2) {
+			return Shapes.or(box(0, 0, 0, 16, 8, 16), box(0, 8, 0, 16, 16, 1), box(0, 8, 15, 16, 16, 16), box(0, 8, 1, 1, 16, 15), box(15, 8, 1, 16, 16, 15), box(1, 7, 1, 15, 15, 15));
+		}
+		return Shapes.or(box(0, 0, 0, 16, 8, 16), box(0, 8, 0, 16, 16, 1), box(0, 8, 15, 16, 16, 16), box(0, 8, 1, 1, 16, 15), box(15, 8, 1, 16, 16, 15));
 	}
 
 	@Override

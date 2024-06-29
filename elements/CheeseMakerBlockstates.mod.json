@@ -15,7 +15,62 @@
         "renderType": 2,
         "customModelName": "cheese_maker_filled:default",
         "luminance": 0,
-        "boundingBoxes": []
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 8.0,
+            "Mz": 16.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 8.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 1.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 8.0,
+            "mz": 15.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 8.0,
+            "mz": 1.0,
+            "Mx": 1.0,
+            "My": 16.0,
+            "Mz": 15.0,
+            "subtract": false
+          },
+          {
+            "mx": 15.0,
+            "my": 8.0,
+            "mz": 1.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 15.0,
+            "subtract": false
+          },
+          {
+            "mx": 1.0,
+            "my": 7.0,
+            "mz": 1.0,
+            "Mx": 15.0,
+            "My": 15.0,
+            "Mz": 15.0,
+            "subtract": false
+          }
+        ]
       },
       {
         "texture": "cheesemakertop",
@@ -28,7 +83,62 @@
         "renderType": 2,
         "customModelName": "cheese_maker_filled:finished",
         "luminance": 0,
-        "boundingBoxes": []
+        "boundingBoxes": [
+          {
+            "mx": 0.0,
+            "my": 0.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 8.0,
+            "Mz": 16.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 8.0,
+            "mz": 0.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 1.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 8.0,
+            "mz": 15.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 16.0,
+            "subtract": false
+          },
+          {
+            "mx": 0.0,
+            "my": 8.0,
+            "mz": 1.0,
+            "Mx": 1.0,
+            "My": 16.0,
+            "Mz": 15.0,
+            "subtract": false
+          },
+          {
+            "mx": 15.0,
+            "my": 8.0,
+            "mz": 1.0,
+            "Mx": 16.0,
+            "My": 16.0,
+            "Mz": 15.0,
+            "subtract": false
+          },
+          {
+            "mx": 1.0,
+            "my": 7.0,
+            "mz": 1.0,
+            "Mx": 15.0,
+            "My": 15.0,
+            "Mz": 15.0,
+            "subtract": false
+          }
+        ]
       }
     ]
   }
