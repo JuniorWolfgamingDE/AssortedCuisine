@@ -2117,7 +2117,7 @@
           }
         ]
       },
-      "path": "~/Pies/Raw Pies"
+      "path": "~/Pies/Pie"
     },
     {
       "name": "ApplePie",
@@ -2134,7 +2134,26 @@
           "src/main/resources/assets/assortedcuisine/models/item/apple_pie.json"
         ]
       },
-      "path": "~/Pies/Raw Pies"
+      "path": "~/Pies/Pie"
+    },
+    {
+      "name": "ApplePieBlockstates",
+      "type": "blockstates",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "apple_pie_blockstates",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/assortedcuisine/models/block/apple_pie_blockstates_blockstate_4.json",
+          "src/main/resources/assets/assortedcuisine/models/block/apple_pie_blockstates_blockstate_1.json",
+          "src/main/resources/assets/assortedcuisine/models/block/apple_pie_blockstates_blockstate_2.json",
+          "src/main/resources/assets/assortedcuisine/models/block/apple_pie_blockstates_blockstate_5.json",
+          "src/main/resources/assets/assortedcuisine/models/block/apple_pie_blockstates_blockstate_0.json",
+          "src/main/resources/assets/assortedcuisine/models/block/apple_pie_blockstates_blockstate_3.json"
+        ]
+      },
+      "path": "~/Pies/Pie"
     }
   ],
   "variable_elements": [
