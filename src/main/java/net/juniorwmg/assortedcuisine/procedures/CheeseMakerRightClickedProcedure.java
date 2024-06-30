@@ -25,6 +25,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
 import net.minecraft.client.Minecraft;
 
+import net.juniorwmg.assortedcuisine.init.AssortedcuisineModItems;
 import net.juniorwmg.assortedcuisine.init.AssortedcuisineModBlocks;
 
 public class CheeseMakerRightClickedProcedure {
@@ -39,10 +40,18 @@ public class CheeseMakerRightClickedProcedure {
 				return -1;
 			}
 		}.getValue(world, BlockPos.containing(x, y, z), "cuisine_milktimer") >= 4) {
-			if (world instanceof ServerLevel _level) {
-				ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(AssortedcuisineModBlocks.CHEESE_BLOCK.get()));
-				entityToSpawn.setPickUpDelay(10);
-				_level.addFreshEntity(entityToSpawn);
+			if (Math.random() < (1) / ((float) 200)) {
+				if (world instanceof ServerLevel _level) {
+					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(AssortedcuisineModItems.CHEESE_MUSIC_DISC.get()));
+					entityToSpawn.setPickUpDelay(10);
+					_level.addFreshEntity(entityToSpawn);
+				}
+			} else {
+				if (world instanceof ServerLevel _level) {
+					ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(AssortedcuisineModBlocks.CHEESE_BLOCK.get()));
+					entityToSpawn.setPickUpDelay(10);
+					_level.addFreshEntity(entityToSpawn);
+				}
 			}
 			if (!world.isClientSide()) {
 				BlockPos _bp = BlockPos.containing(x, y, z);
