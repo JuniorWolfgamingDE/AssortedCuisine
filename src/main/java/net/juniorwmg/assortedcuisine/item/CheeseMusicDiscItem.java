@@ -16,7 +16,7 @@ import java.util.List;
 
 public class CheeseMusicDiscItem extends RecordItem {
 	public CheeseMusicDiscItem() {
-		super(2, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("assortedcuisine:cheese_music_disc")), new Item.Properties().stacksTo(1).rarity(Rarity.COMMON), 2760);
+		super(2, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("assortedcuisine:cheese_music_disc")), new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 2760);
 	}
 
 	@Override

@@ -3,7 +3,7 @@
   "_type": "musicdisc",
   "definition": {
     "name": "Cheese Music Disc",
-    "rarity": "COMMON",
+    "rarity": "RARE",
     "texture": "cheeseblock_item",
     "description": "sisthek - CHEESE",
     "creativeTab": {
