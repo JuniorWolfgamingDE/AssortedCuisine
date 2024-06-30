@@ -16,4 +16,5 @@ import net.juniorwmg.assortedcuisine.AssortedcuisineMod;
 public class AssortedcuisineModSounds {
 	public static final DeferredRegister<SoundEvent> REGISTRY = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, AssortedcuisineMod.MODID);
 	public static final RegistryObject<SoundEvent> MRCHEESE = REGISTRY.register("mrcheese", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("assortedcuisine", "mrcheese")));
+	public static final RegistryObject<SoundEvent> CHEESE_MUSIC_DISC = REGISTRY.register("cheese_music_disc", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("assortedcuisine", "cheese_music_disc")));
 }

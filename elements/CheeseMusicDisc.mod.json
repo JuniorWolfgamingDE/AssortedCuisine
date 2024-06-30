@@ -1,0 +1,24 @@
+{
+  "_fv": 57,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Cheese Music Disc",
+    "rarity": "COMMON",
+    "texture": "cheeseblock_item",
+    "description": "sisthek - CHEESE",
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "music": {
+      "value": "CUSTOM:cheese_music_disc"
+    },
+    "lengthInTicks": 2760,
+    "analogOutput": 2
+  }
+}

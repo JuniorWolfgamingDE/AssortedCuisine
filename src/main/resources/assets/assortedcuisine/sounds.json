@@ -7,5 +7,14 @@
         "stream": false
       }
     ]
+  },
+  "cheese_music_disc": {
+    "subtitle": "subtitles.cheese_music_disc",
+    "sounds": [
+      {
+        "name": "assortedcuisine:cheese_music_disc",
+        "stream": true
+      }
+    ]
   }
 }
