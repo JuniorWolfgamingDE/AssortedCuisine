@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "assortedcuisine:cheese_music_disc"
+    },
+    "title": {
+      "translate": "advancements.cheese_music_disc_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.cheese_music_disc_advancement.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "cheese_music_disc_advancement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "assortedcuisine:cheese_music_disc"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1000
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "minecraft:husbandry/plant_seed"
+}
