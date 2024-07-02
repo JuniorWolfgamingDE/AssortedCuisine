@@ -11,9 +11,9 @@ Currently adds the following:
 - Sweets: 2 different variants of sweets which replenish your hunger on-the-go.
 - Health Packs: Useful health packs which can heal you quickly in combat.
 - Food: Butter, Cheese, Sandwiches, Scrambled eggs - all you need for a balanced breakfast.
+- Pies: Melon pie, Chocolate pie - too many pies!
 
 Coming soon / WIP:
-- Pies: Melon pie, Chocolate pie - too many pies!
 - Chocolate: Chocolate blocks, cake, bars...
 
 ### Didn't this exist before?
