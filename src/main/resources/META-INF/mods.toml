@@ -22,19 +22,7 @@ description="Adds an random assortment of food items to your Minecraft world."
 
 
 [[dependencies.assortedcuisine]]
-    modId="assorted-tools"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.assortedcuisine]]
     modId="assortedtools"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
-[[dependencies.assortedcuisine]]
-    modId="assorted-lib"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"
