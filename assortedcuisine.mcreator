@@ -2397,6 +2397,56 @@
         ]
       },
       "path": "~/Dairy/Achievement"
+    },
+    {
+      "name": "ChocolateCake",
+      "type": "block",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_cake",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/block/ChocolateCakeBlock.java",
+          "src/main/resources/assets/assortedcuisine/blockstates/chocolate_cake.json",
+          "src/main/resources/assets/assortedcuisine/models/block/chocolate_cake.json",
+          "src/main/resources/assets/assortedcuisine/models/item/chocolate_cake.json"
+        ]
+      },
+      "path": "~/Chocolate"
+    },
+    {
+      "name": "ChocolateCakeBlockstates",
+      "type": "blockstates",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_cake_blockstates",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/assortedcuisine/models/block/chocolate_cake_blockstates_blockstate_4.json",
+          "src/main/resources/assets/assortedcuisine/models/block/chocolate_cake_blockstates_blockstate_1.json",
+          "src/main/resources/assets/assortedcuisine/models/block/chocolate_cake_blockstates_blockstate_3.json",
+          "src/main/resources/assets/assortedcuisine/models/block/chocolate_cake_blockstates_blockstate_0.json",
+          "src/main/resources/assets/assortedcuisine/models/block/chocolate_cake_blockstates_blockstate_2.json",
+          "src/main/resources/assets/assortedcuisine/models/block/chocolate_cake_blockstates_blockstate_5.json"
+        ]
+      },
+      "path": "~/Chocolate"
+    },
+    {
+      "name": "ChocolateCakeRecipe",
+      "type": "recipe",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_cake_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/assortedcuisine/recipes/chocolate_cake_recipe.json"
+        ]
+      },
+      "path": "~/Chocolate"
     }
   ],
   "variable_elements": [
@@ -2438,8 +2488,8 @@
       "item.assortedcuisine.slurm_soda": "Slurm",
       "item.assortedcuisine.bread_slice": "Bread Slice",
       "item.assortedcuisine.cheese_music_disc.desc": "sisthek - CHEESE",
-      "item.assortedcuisine.hot_chocolate_milk": "Hot Chocolate Milk",
       "item.assortedcuisine.cocoa_soda": "Cocoa Drink",
+      "item.assortedcuisine.hot_chocolate_milk": "Hot Chocolate Milk",
       "item.assortedcuisine.golden_apple_soda": "Golden Apple Soda",
       "advancements.cheese_music_disc_advancement.descr": "Acquire sisthek\u0027s CHEESE music disc by producing ridiculous amounts of cheese.",
       "item.assortedcuisine.mr_cheese_item": "MrCheeseItem",
@@ -2463,6 +2513,7 @@
       "block.assortedcuisine.apple_pie": "Apple Pie",
       "item.assortedcuisine.cheese_music_disc": "Music Disc",
       "death.attack.cuisine.spikedpumpkin": "A player drank to much spiked soda",
+      "block.assortedcuisine.chocolate_cake": "Chocolate Cake",
       "item.assortedcuisine.knife": "Knife",
       "item.assortedcuisine.super_sugar": "Super Sugar",
       "item.assortedcuisine.raw_chocolate_pie": "Raw Chocolate Pie",

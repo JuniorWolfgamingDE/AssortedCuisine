@@ -14,6 +14,7 @@ import net.juniorwmg.assortedcuisine.block.PumpkinPieBlock;
 import net.juniorwmg.assortedcuisine.block.PorkPieBlock;
 import net.juniorwmg.assortedcuisine.block.MelonPieBlock;
 import net.juniorwmg.assortedcuisine.block.ChocolatePieBlock;
+import net.juniorwmg.assortedcuisine.block.ChocolateCakeBlock;
 import net.juniorwmg.assortedcuisine.block.CheeseMakerBlock;
 import net.juniorwmg.assortedcuisine.block.CheeseBlockBlock;
 import net.juniorwmg.assortedcuisine.block.ButterChurnBlock;
@@ -30,4 +31,5 @@ public class AssortedcuisineModBlocks {
 	public static final RegistryObject<Block> MELON_PIE = REGISTRY.register("melon_pie", () -> new MelonPieBlock());
 	public static final RegistryObject<Block> PORK_PIE = REGISTRY.register("pork_pie", () -> new PorkPieBlock());
 	public static final RegistryObject<Block> PUMPKIN_PIE = REGISTRY.register("pumpkin_pie", () -> new PumpkinPieBlock());
+	public static final RegistryObject<Block> CHOCOLATE_CAKE = REGISTRY.register("chocolate_cake", () -> new ChocolateCakeBlock());
 }

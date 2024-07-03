@@ -1,0 +1,12 @@
+{
+  "parent": "assortedcuisine:custom/pie_6",
+  "textures": {
+    "all": "assortedcuisine:block/chocolate_cake_top",
+    "particle": "assortedcuisine:block/chocolate_cake_top",
+    "0": "assortedcuisine:block/chocolate_cake_top",
+    "1": "assortedcuisine:block/chocolate_cake_side",
+    "2": "assortedcuisine:block/chocolate_cake_bottom",
+    "3": "assortedcuisine:block/chocolate_cake_sidecut"
+  },
+  "render_type": "solid"
+}
