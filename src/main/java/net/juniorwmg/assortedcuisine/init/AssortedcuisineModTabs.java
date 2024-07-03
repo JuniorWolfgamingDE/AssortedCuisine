@@ -70,6 +70,7 @@ public class AssortedcuisineModTabs {
 				tabData.accept(AssortedcuisineModBlocks.PORK_PIE.get().asItem());
 				tabData.accept(AssortedcuisineModBlocks.PUMPKIN_PIE.get().asItem());
 				tabData.accept(AssortedcuisineModBlocks.CHOCOLATE_CAKE.get().asItem());
+				tabData.accept(AssortedcuisineModBlocks.CHOCOLATE_BAR_MOULD.get().asItem());
 			})
 
 					.build());

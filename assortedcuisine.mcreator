@@ -2447,6 +2447,23 @@
         ]
       },
       "path": "~/Chocolate"
+    },
+    {
+      "name": "ChocolateBarMould",
+      "type": "block",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_bar_mould",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/assortedcuisine/blockstates/chocolate_bar_mould.json",
+          "src/main/java/net/juniorwmg/assortedcuisine/block/ChocolateBarMouldBlock.java",
+          "src/main/resources/assets/assortedcuisine/models/block/chocolate_bar_mould.json",
+          "src/main/resources/assets/assortedcuisine/models/item/chocolate_bar_mould.json"
+        ]
+      },
+      "path": "~/Candy"
     }
   ],
   "variable_elements": [
@@ -2488,8 +2505,8 @@
       "item.assortedcuisine.slurm_soda": "Slurm",
       "item.assortedcuisine.bread_slice": "Bread Slice",
       "item.assortedcuisine.cheese_music_disc.desc": "sisthek - CHEESE",
-      "item.assortedcuisine.cocoa_soda": "Cocoa Drink",
       "item.assortedcuisine.hot_chocolate_milk": "Hot Chocolate Milk",
+      "item.assortedcuisine.cocoa_soda": "Cocoa Drink",
       "item.assortedcuisine.golden_apple_soda": "Golden Apple Soda",
       "advancements.cheese_music_disc_advancement.descr": "Acquire sisthek\u0027s CHEESE music disc by producing ridiculous amounts of cheese.",
       "item.assortedcuisine.mr_cheese_item": "MrCheeseItem",
@@ -2536,6 +2553,7 @@
       "block.assortedcuisine.cheese_maker": "Cheese Maker",
       "item.assortedcuisine.pie_pan": "Pie Pan",
       "item.assortedcuisine.health_pack": "Health Pack",
+      "block.assortedcuisine.chocolate_bar_mould": "Chocolate Bar Mould",
       "item.assortedcuisine.raw_pumpkin_pie": "Raw Cream Pumpkin Pie",
       "item.assortedcuisine.cream_pumpkin_soda": "Cream Pumpkin Soda",
       "item.assortedcuisine.super_sugar_sweets": "Super Sugar Sweets",

@@ -115,6 +115,7 @@ public class AssortedcuisineModItems {
 	public static final RegistryObject<Item> PUMPKIN_PIE = block(AssortedcuisineModBlocks.PUMPKIN_PIE);
 	public static final RegistryObject<Item> CHEESE_MUSIC_DISC = REGISTRY.register("cheese_music_disc", () -> new CheeseMusicDiscItem());
 	public static final RegistryObject<Item> CHOCOLATE_CAKE = block(AssortedcuisineModBlocks.CHOCOLATE_CAKE);
+	public static final RegistryObject<Item> CHOCOLATE_BAR_MOULD = block(AssortedcuisineModBlocks.CHOCOLATE_BAR_MOULD);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

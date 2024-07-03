@@ -1,0 +1,11 @@
+{
+  "parent": "assortedcuisine:custom/chocolate_bar_mould",
+  "textures": {
+    "all": "assortedcuisine:block/chocolate_bar_mould_top",
+    "particle": "assortedcuisine:block/chocolate_bar_mould_top",
+    "0": "assortedcuisine:block/chocolate_bar_mould_top",
+    "1": "assortedcuisine:block/chocolate_bar_mould_side",
+    "2": "assortedcuisine:block/cheesemakertop"
+  },
+  "render_type": "solid"
+}
