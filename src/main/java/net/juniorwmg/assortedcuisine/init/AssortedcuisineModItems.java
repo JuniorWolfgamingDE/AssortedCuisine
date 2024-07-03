@@ -48,6 +48,7 @@ import net.juniorwmg.assortedcuisine.item.CreamPumpkinSodaItem;
 import net.juniorwmg.assortedcuisine.item.CocoaSodaItem;
 import net.juniorwmg.assortedcuisine.item.CocoaDustItem;
 import net.juniorwmg.assortedcuisine.item.ChocolateMilkItem;
+import net.juniorwmg.assortedcuisine.item.ChocolateBarItem;
 import net.juniorwmg.assortedcuisine.item.ChocolateBallsItem;
 import net.juniorwmg.assortedcuisine.item.CheeseMusicDiscItem;
 import net.juniorwmg.assortedcuisine.item.CheeseItem;
@@ -116,6 +117,7 @@ public class AssortedcuisineModItems {
 	public static final RegistryObject<Item> CHEESE_MUSIC_DISC = REGISTRY.register("cheese_music_disc", () -> new CheeseMusicDiscItem());
 	public static final RegistryObject<Item> CHOCOLATE_CAKE = block(AssortedcuisineModBlocks.CHOCOLATE_CAKE);
 	public static final RegistryObject<Item> CHOCOLATE_BAR_MOULD = block(AssortedcuisineModBlocks.CHOCOLATE_BAR_MOULD);
+	public static final RegistryObject<Item> CHOCOLATE_BAR = REGISTRY.register("chocolate_bar", () -> new ChocolateBarItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

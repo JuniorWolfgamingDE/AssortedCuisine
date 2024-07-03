@@ -2459,8 +2459,107 @@
         "files": [
           "src/main/resources/assets/assortedcuisine/blockstates/chocolate_bar_mould.json",
           "src/main/java/net/juniorwmg/assortedcuisine/block/ChocolateBarMouldBlock.java",
+          "src/main/java/net/juniorwmg/assortedcuisine/block/entity/ChocolateBarMouldBlockEntity.java",
           "src/main/resources/assets/assortedcuisine/models/block/chocolate_bar_mould.json",
           "src/main/resources/assets/assortedcuisine/models/item/chocolate_bar_mould.json"
+        ]
+      },
+      "path": "~/Candy"
+    },
+    {
+      "name": "ChocolateBarMouldUpdateTick",
+      "type": "procedure",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_bar_mould_update_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/procedures/ChocolateBarMouldUpdateTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Candy"
+    },
+    {
+      "name": "ChocolateBarMouldRightClicked",
+      "type": "procedure",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_bar_mould_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/procedures/ChocolateBarMouldRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Candy"
+    },
+    {
+      "name": "ChocolateBar",
+      "type": "item",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_bar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/juniorwmg/assortedcuisine/item/ChocolateBarItem.java",
+          "src/main/resources/assets/assortedcuisine/models/item/chocolate_bar.json"
+        ]
+      },
+      "path": "~/Candy"
+    },
+    {
+      "name": "ChocolateBarMouldBlockstates",
+      "type": "blockstates",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chocolate_bar_mould_blockstates",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/assortedcuisine/models/block/chocolate_bar_mould_blockstates_blockstate_0.json",
+          "src/main/resources/assets/assortedcuisine/models/block/chocolate_bar_mould_blockstates_blockstate_1.json"
         ]
       },
       "path": "~/Candy"
@@ -2505,8 +2604,8 @@
       "item.assortedcuisine.slurm_soda": "Slurm",
       "item.assortedcuisine.bread_slice": "Bread Slice",
       "item.assortedcuisine.cheese_music_disc.desc": "sisthek - CHEESE",
-      "item.assortedcuisine.hot_chocolate_milk": "Hot Chocolate Milk",
       "item.assortedcuisine.cocoa_soda": "Cocoa Drink",
+      "item.assortedcuisine.hot_chocolate_milk": "Hot Chocolate Milk",
       "item.assortedcuisine.golden_apple_soda": "Golden Apple Soda",
       "advancements.cheese_music_disc_advancement.descr": "Acquire sisthek\u0027s CHEESE music disc by producing ridiculous amounts of cheese.",
       "item.assortedcuisine.mr_cheese_item": "MrCheeseItem",
@@ -2516,6 +2615,7 @@
       "item.assortedcuisine.carbon_dioxide_cylinder": "Empty Co² Cylinder",
       "block.assortedcuisine.melon_pie": "Melon Pie",
       "block.assortedcuisine.chocolate_pie": "Chocolate Pie",
+      "item.assortedcuisine.chocolate_bar": "Chocolate Bar",
       "item.assortedcuisine.sugar_sweets": "Sugar Sweets",
       "item.assortedcuisine.spiked_pumpkin_soda": "Spiked Pumpkin Soda",
       "item.assortedcuisine.chocolate_milk": "Chocolate Milk",

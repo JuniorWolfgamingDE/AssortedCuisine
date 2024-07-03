@@ -71,6 +71,7 @@ public class AssortedcuisineModTabs {
 				tabData.accept(AssortedcuisineModBlocks.PUMPKIN_PIE.get().asItem());
 				tabData.accept(AssortedcuisineModBlocks.CHOCOLATE_CAKE.get().asItem());
 				tabData.accept(AssortedcuisineModBlocks.CHOCOLATE_BAR_MOULD.get().asItem());
+				tabData.accept(AssortedcuisineModItems.CHOCOLATE_BAR.get());
 			})
 
 					.build());
