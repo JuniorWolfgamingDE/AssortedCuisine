@@ -1,0 +1,28 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "chocolate_bar_mould_top",
+        "1": "chocolate_bar_mould_side",
+        "2": "cheesemakertop"
+      },
+      "name": "default"
+    },
+    "filled": {
+      "map": {
+        "0": "chocolate_bar_mould_top_filled",
+        "1": "chocolate_bar_mould_side",
+        "2": "cheesemakertop"
+      },
+      "name": "filled"
+    },
+    "finished": {
+      "map": {
+        "0": "chocolate_bar_mould_top_finished",
+        "1": "chocolate_bar_mould_side",
+        "2": "cheesemakertop"
+      },
+      "name": "finished"
+    }
+  }
+}
