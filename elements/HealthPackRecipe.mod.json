@@ -12,13 +12,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "Items.IRON_NUGGET"
+        "value": ""
       },
       {
         "value": "CUSTOM:Bandage"
       },
       {
-        "value": "Items.IRON_NUGGET"
+        "value": ""
       },
       {
         "value": "CUSTOM:Bandage"
@@ -30,13 +30,13 @@
         "value": "CUSTOM:Bandage"
       },
       {
-        "value": "Items.IRON_NUGGET"
+        "value": ""
       },
       {
         "value": "CUSTOM:Bandage"
       },
       {
-        "value": "Items.IRON_NUGGET"
+        "value": ""
       }
     ],
     "recipeReturnStack": {
