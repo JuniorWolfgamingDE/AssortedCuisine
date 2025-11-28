@@ -1,3 +1,7 @@
+> [!NOTE]
+> Important information:
+> This mod has been discontinued to work on a non-MCreator successor, CuisineX / Junior's Delightful Cuisine. More news on that in the future.
+
 # Assorted Cuisine
 An assortment of food and health related items.
 <br>While supposed to be used with other Assorted mods, Assorted Cuisine also works on it's own.
